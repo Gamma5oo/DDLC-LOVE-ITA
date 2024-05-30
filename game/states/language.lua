@@ -1,5 +1,5 @@
-lang_names = {'English', 'Español (España)'}
-lang_codes = {'eng', 'spa'} --ISO 639-2 language code
+lang_names = {'English', 'Español (España)', 'Italiano (By Gamma)'}
+lang_codes = {'eng', 'spa', 'ita'} --ISO 639-2 language code
 local lang_state = 0
 local lang_select = 1
 
