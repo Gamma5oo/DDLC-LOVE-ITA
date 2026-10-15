@@ -9,32 +9,32 @@ function ch20script()
 	if cl == 1 then
 	audioUpdate('2')
 	bgUpdate('residential')
-	bl "It's an ordinary school day, like any other."
+	bl "È un giorno scolastico ordinario, come ogni altro."
 	elseif cl == 2 then
-	bl "Mornings are usually the worst, being surrounded by couples and friend groups walking to school together."
+	bl "Le mattine sono di solito le peggiori, con tutte le coppie e i gruppi di amici che camminano verso la scuola insieme."
 	elseif cl == 3 then
-	bl "Meanwhile, I've always walked to school alone."
+	bl "Intanto, io vado sempre a scuola da solo."
 	elseif cl == 4 then
-	bl "I always tell myself it's about time I meet some girls or something like that..."
+	bl "Mi ripeto sempre che è ora di conoscere qualche ragazza o qualcosa del genere..."
 	elseif cl == 5 then
-	bl "But I have no motivation to join any clubs."
+	bl "Ma non ho alcuna motivazione per entrare in un club."
 	elseif cl == 6 then
-	bl "I'm perfectly content just getting by on the average while spending my free time on games and  anime."
+	bl "Sono perfettamente contento di cavarmela con la mediocrità, passando il mio tempo libero con i giochi e gli anime."
 	elseif cl == 7 then
-	bl "There's always the anime club, but it's not like there would be any girls in it anyway..."
+	bl "C'è sempre il club di anime, ma non ci saranno ragazze lì in ogni caso..."
 	elseif cl == 8 then
 	bgUpdate('class')
-	bl "The school day is as ordinary as ever, and it's over before I know it."
+	bl "La giornata scolastica è ordinaria come sempre, e finisce prima che me ne accorga."
 	elseif cl == 9 then
-	bl "After I pack up my things, I stare blankly at the wall, looking for an ounce of motivation."
+	bl "Dopo aver riposto le mie cose, fissaccio il muro, cercando un briciolo di motivazione."
 	elseif cl == 10 then
-	mc "Clubs..."
+	mc "Club..."
 	elseif cl == 11 then
-	bl "There really aren't any that interest me."
+	bl "Non ci sono davvero nessuno che mi interessi."
 	elseif cl == 12 then
-	bl "Besides, most of them would probably be way too demanding for me to want to deal with."
+	bl "Peraltro, la maggior parte di loro sarebbe probabilmente troppo esigente per me per volerli gestire."
 	elseif cl == 13 then
-	bl "I guess I have no choice but to start with the anime club..."
+	bl "Immagino di non avere altra scelta che iniziare con il club di anime..."
 	elseif cl == 14 then
 	cw('???',"..."..player.."?")
 	elseif cl == 15 then
@@ -45,152 +45,152 @@ function ch20script()
 	mc "...Monika?"
 	elseif cl == 17 then
 	updateMonika('1','b')
-	m "Oh my goodness, I totally didn't expect to see you here!"
+	m "Che meraviglia, non mi aspettavo di vederti qui!"
 	elseif cl == 18 then
 	updateMonika('5a')
-	m "It's been a while, right?"
+	m "È passato un po' di tempo, giusto?"
 	elseif cl == 19 then
 	mc "Ah..."
 	elseif cl == 20 then
-	mc "Yeah, it has."
+	mc "Sì, è passato."
 	elseif cl == 21 then
-	bl "Monika smiles sweetly."
+	bl "Monika sorride dolcemente."
 	elseif cl == 22 then
-	bl "We do know each other - well, we rarely talked, but we were in the same class last year."
+	bl "Ci conosciamo - beh, raramente abbiamo parlato, ma eravamo nella stessa classe l'anno scorso."
 	elseif cl == 23 then
-	bl "Monika was probably the most popular girl in class - smart, beautiful, athletic."
+	bl "Monika era probabilmente la ragazza più popolare della classe - intelligente, bella, atletica."
 	elseif cl == 24 then
-	bl "Basically, completely out of my league."
+	bl "Praticamente, completamente fuori dalla mia portata."
 	elseif cl == 25 then
-	bl "So, having her smile at me so genuinely feels a little..."
+	bl "Quindi, il fatto che mi sorrida così sinceramente fa sentire un po'..."
 	elseif cl == 26 then
-	mc "What did you come in here for, anyway?"
+	mc "Cosa sei venuta a fare qui, in ogni caso?"
 	elseif cl == 27 then
 	updateMonika('1','a')
-	m "Oh, I've just been looking for some supplies to use for my club."
+	m "Ah, stavo cercando alcuni materiali da usare per il mio club."
 	elseif cl == 28 then
 	updateMonika('1','d')
-	m "Do you know if there's any construction paper in here?"
+	m "Sai se c'è carta colorata qui dentro?"
 	elseif cl == 29 then
-	m "Or markers?"
+	m "O pennarelli?"
 	elseif cl == 30 then
-	mc "I guess you could check the closet."
+	mc "Immagina che potresti controllare l'armadio."
 	elseif cl == 31 then
-	mc "...You're in the debate club, right?"
+	mc "...Sei nel club di dibattito, giusto?"
 	elseif cl == 32 then
 	updateMonika('5a')
-	m "Ahaha, about that..."
+	m "Ahaha, a proposito di quello..."
 	elseif cl == 33 then
-	m "I actually quit the debate club."
+	m "In realtà ho lasciato il club di dibattito."
 	elseif cl == 34 then
-	mc "Really? You quit?"
+	mc "Davvero? Hai lasciato?"
 	elseif cl == 35 then
-	m "Yeah..."
+	m "Sì..."
 	elseif cl == 36 then
 	updateMonika('2','e')
-	m "To be honest, I can't stand all of the politics around the major clubs."
+	m "Per essere onesta, non posso sopportare tutta la politica attorno ai club principali."
 	elseif cl == 37 then
-	m "It feels like nothing but arguing about the budget and publicity and how to prepare for events..."
+	m "Sembra che sia solo litigare sul budget e sulla pubblicità e su come prepararsi per gli eventi..."
 	elseif cl == 38 then
-	m "I'd much rather take something I personally enjoy and make something special out of it."
+	m "Preferirei molto prendere qualcosa che mi piace personalmente e farne qualcosa di speciale."
 	elseif cl == 39 then
-	mc "In that case, what club did you decide to join?"
+	mc "In tal caso, quale club hai deciso di unirti?"
 	elseif cl == 40 then
 	updateMonika('1','b')
-	m "Actually, I'm starting a new one!"
+	m "In realtà, ne sto fondando uno nuovo!"
 	elseif cl == 41 then
 	sfxplay('s_kill_glitch1s')
-	m "A literature club!"
+	m "Un club di letteratura!"
 	elseif cl == 42 then
-	mc "Literature...?"
+	mc "Letteratura...?"
 	elseif cl == 43 then
-	bl "That sounds kind of...dull?"
+	bl "Sembra un po'... noioso?"
 	elseif cl == 44 then
-	mc "How many members do you have so far?"
+	mc "Quanti membri hai finora?"
 	elseif cl == 45 then
 	updateMonika('5a')
-	m "Um..."
+	m "Ehm..."
 	elseif cl == 46 then
 	m "Ahaha..."
 	elseif cl == 47 then
-	m "It's kind of embarrassing, but there are only three of us so far."
+	m "È un po' imbarazzante, ma siamo solo in tre finora."
 	elseif cl == 48 then
-	m "It's really hard to find new members for something that sounds so boring..."
+	m "È davvero difficile trovare nuovi membri per qualcosa che suona così noioso..."
 	elseif cl == 49 then
-	mc "Well, I can see that..."
+	mc "Beh, posso capirlo..."
 	elseif cl == 50 then
 	updateMonika('3','d')
-	m "But it's really not boring at all, you know!"
+	m "Ma non è affatto noioso, lo sai!"
 	elseif cl == 51 then
-	m "Literature can be anything. Reading, writing, poetry..."
+	m "La letteratura può essere qualsiasi cosa. Lettura, scrittura, poesia..."
 	elseif cl == 52 then
 	updateMonika('3','e')
-	m "I mean, one of my members even keeps her manga collection in the clubroom..."
+	m "Voglio dire, una delle mie membri tiene la sua collezione di manga nella sala del club..."
 	elseif cl == 53 then
-	mc "Wait...really?"
+	mc "Aspetta... davvero?"
 	elseif cl == 54 then
 	updateMonika('2','k')
-	m "Yeah, it's funny, right?"
+	m "Sì, è divertente, no?"
 	elseif cl == 55 then
 	updateMonika('2','e')
-	m "She always insists that manga is literature, too."
+	m "Insiste sempre sul fatto che il manga è anche letteratura."
 	elseif cl == 56 then
-	m "I mean, she's not wrong, I guess..."
+	m "Voglio dire, non ha torto, immagino..."
 	elseif cl == 57 then
-	m "And besides, a member's a member, right?"
+	m "E poi, un membro è un membro, giusto?"
 	elseif cl == 58 then
-	bl "...Did Monika say \"she\"?"
+	bl "...Monika ha detto \"lei\"?"
 	elseif cl == 59 then
 	updateMonika('1','a')
-	cw('m',"Hey, "..player.."...")
+	cw('m',"Ehi, "..player.."...")
 	elseif cl == 60 then
-	m "By any chance...are you still looking for a club to join?"
+	m "Per caso... stai ancora cercando un club a cui unirti?"
 	elseif cl == 61 then
 	mc "Ah--"
 	elseif cl == 62 then
-	mc "I mean, I guess so, but..."
+	mc "Voglio dire, immagino di sì, ma..."
 	elseif cl == 63 then
-	m "In that case..."
+	m "In tal caso..."
 	elseif cl == 64 then
 	updateMonika('5a')
-	m "Is there any chance you could do me a big favor?"
+	m "C'è la possibilità che tu possa farmi un grande favore?"
 	elseif cl == 65 then
-	m "I won't ask you to join, but..."
+	m "Non ti chiederò di unirti, ma..."
 	elseif cl == 66 then
-	m "If you could at the very least visit my club, it would make me really happy."
+	m "Se potessi almeno visitare il mio club, mi farebbe davvero piacere."
 	elseif cl == 67 then
-	m "Please?"
+	m "Per favore?"
 	elseif cl == 68 then
-	mc "Um..."
+	mc "Ehm..."
 	elseif cl == 69 then
-	bl "Well, I guess I have no reason to refuse..."
+	bl "Beh, immagino di non avere alcuna ragione per rifiutare..."
 	elseif cl == 70 then
-	bl "Besides, how could I ever refuse someone like Monika?"
+	bl "Poi, come potrei mai rifiutare qualcuno come Monika?"
 	elseif cl == 71 then
-	mc "Sure, I guess I could check it out."
+	mc "Va bene, immagino che potrei darci un'occhiata."
 	elseif cl == 72 then
 	updateMonika('1','k')
-	m "Aah, awesome!"
+	m "Aah, fantastico!"
 	elseif cl == 73 then
 	updateMonika('1','b')
-	cw('m',"You're really sweet, "..player..", you know that?")
+	cw('m',"Sei davvero dolce, "..player..", lo sai?"")
 	elseif cl == 74 then
-	mc "I-It's nothing, really..."
+	mc "I-Non è niente, davvero..."
 	elseif cl == 75 then
 	updateMonika('1','a')
-	m "Shall we go, then?"
+	m "Andiamo, allora?"
 	elseif cl == 76 then
-	m "I'll look for the materials another time - you're more important."
+	m "Cercò i materiali un'altra volta - tu sei più importante."
 
 	elseif cl == 77 then
 	audioUpdate('0')
 	bgUpdate('corridor')
 	hideMonika()
-	bl "And thus, today marks the day I sold my soul to Monika and her irresistible smile."
+	bl "E così, oggi segna il giorno in cui ho vendato la mia anima a Monika e al suo sorriso irresistibile."
 	elseif cl == 78 then
-	bl "I timidly follow Monika across the school and upstairs - a section of the school I rarely visit, being generally used for third-year classes and activities."
+	bl "Seguo timidamente Monika per la scuola e su per le scale - una sezione della scuola che raramente visito, essendo generalmente usata per le classi di terzo anno e attività."
 	elseif cl == 79 then
-	bl "Monika, full of energy, swings open the classroom door."
+	bl "Monika, piena di energia, apre la porta dell'aula."
 	
 	elseif cl == 80 then
 	if autoskip > 0 or m_chance > 0 then
@@ -202,7 +202,7 @@ function ch20script()
 	end
 	bgUpdate('club_day2')	
 	audioUpdate('3')
-	m "I'm back~!"
+	m "Sono tornata~!"
 	
 	elseif cl == 81 then
 	updateMonika('3','b',-40,0)
@@ -210,338 +210,338 @@ function ch20script()
 	sfxplay('glitch1s')
 	cw('Girl 1',"Eh?")
 	elseif cl == 82 then
-	cw('Girl 1',"A...a guest?")
+	cw('Girl 1',"Un... un ospite?"")
 	elseif cl == 83 then
 	updateNatsuki('4','c',80)
-	cw('Girl 2',"Seriously? You brought a boy?")
+	cw('Girl 2',"Davvero? Hai portato un ragazzo?"")
 	elseif cl == 84 then
-	cw('Girl 2',"Way to kill the atmosphere.")
+	cw('Girl 2',"Un modo per uccidere l'atmosfera."")
 	elseif cl == 85 then
 	updateMonika('3','m')
-	m "Don't be mean, Natsuki..."
+	m "Non essere scema, Natsuki..."
 	elseif cl == 86 then
 	updateMonika('3','b')
-	cw('m',"...But anyway, welcome to the club, "..player.."!")
+	cw('m',"...Ma comunque, benvenuta al club, "..player.."!")
 	elseif cl == 87 then
 	updateMonika('3','a')
 	cw('mc',"...")
 	elseif cl == 88 then
-	bl "All words escape me in this situation."
+	bl "Tutte le parole mi sfuggono in questa situazione."
 	elseif cl == 89 then
-	bl "This club..."
+	bl "Questo club..."
 	elseif cl == 90 then
-	bl "...is full of incredibly cute girls!!"
+	bl "...è pieno di ragazze incredibilmente carine!!"
 	elseif cl == 91 then
 	updateNatsuki('5','c')
-	cw('Girl 2',"So, let me guess...")
+	cw('Girl 2',"Allora, lasciami indovinare...")
 	elseif cl == 92 then
-	cw('Girl 2',"You're Monika's boyfriend, right?")
+	cw('Girl 2',"Sei il fidanzato di Monika, giusto?"")
 	elseif cl == 93 then
-	mc "Wha--"
+	mc "Che--"
 	elseif cl == 94 then
-	mc "No, I'm not!"
+	mc "No, non lo sono!"
 	elseif cl == 95 then
 	updateYuri('2','l')
 	cw('Girl 1',"Natsuki...")
 	elseif cl == 96 then
-	bl "The girl with the sour attitude, whose name is apparently Natsuki, is one I don't recognize."
+	bl "La ragazza con l'atteggiamento acido, il cui nome è apparentemente Natsuki, è una che non riconosco."
 	elseif cl == 97 then
-	bl "Her small figure makes me think she's probably a first-year."
+	bl "La sua piccola statura mi fa pensare che sia probabilmente una prima anno."
 	elseif cl == 98 then
 	updateMonika('2','l')
-	m "A-Anyway, this is Natsuki, energetic as usual..."
+	m "A-Comunque, questa è Natsuki, energica come sempre..."
 	elseif cl == 99 then
 	updateMonika('2','b')
-	m "And this is Yuri, the Vice President!"
+	m "E questa è Yuri, la Vice Presidente!"
 	elseif cl == 100 then
 	updateMonika('2','a')
 	updateYuri('4','a2')
-	y "I-It's nice to meet you..."
+	y "I-È bello incontrarti..."
 	elseif cl == 101 then
-	bl "Yuri, who appears comparably more mature and timid, seems to have a hard time keeping up with someone like Natsuki."
+	bl "Yuri, che appare comparativamente più matura e timida, sembra avere difficoltà a stare al passo con qualcuno come Natsuki."
 	elseif cl == 102 then
-	mc "Yeah... It's nice to meet both of you."
+	mc "Sì... È bello incontrare entrambe."
 	elseif cl == 103 then
 	updateMonika('1','a')
-	cw('m',"So, I ran into "..player.." in a classroom, and he decided to come check out the club.")
+	cw('m',"Allora, ho incontrato "..player.." in un'aula, e ha deciso di venire a vedere il club.")
 	elseif cl == 104 then
-	m "Isn't that great?"
+	m "Non è fantastico?"
 	elseif cl == 105 then
 	updateNatsuki('4','e')
-	n "Wait! Monika!"
+	n "Aspetta! Monika!"
 	elseif cl == 106 then
-	n "Didn't I tell you to let me know in advance before you brought anyone new?"
+	n "Non ti avevo detto di farmi sapere in anticipo prima di portare qualcuno di nuovo?"
 	elseif cl == 107 then
 	updateNatsuki('4','q')
-	n "I was going to...well, you know..."
+	n "Stavo per... beh, lo sai..."
 	elseif cl == 108 then
 	updateMonika('1','e')
-	m "Sorry, sorry!"
+	m "Scusa, scusa!"
 	elseif cl == 109 then
-	m "I didn't forget that, but I just happened to run into him."
+	m "Non l'ho dimenticato, ma ho semplicemente incontrato lui."
 	elseif cl == 110 then
 	updateYuri('1','a')
-	y "In that case, I should at least make some tea, right?"
+	y "In tal caso, dovrei almeno fare un po' di tè, giusto?"
 	elseif cl == 111 then
 	updateMonika('1','b')
-	m "Yeah, that would be great!"
+	m "Sì, sarebbe fantastico!"
 	elseif cl == 112 then
-	cw('m',"Why don't you come sit down, "..player.."?")
+	cw('m',"Perché non vi sedete, "..player.."?")
 	elseif cl == 113 then
 	hideAll()
-	bl "The girls have a few desks arranged to form a table."
+	bl "Le ragazze hanno alcuni banchi disposti per formare un tavolo."
 	elseif cl == 114 then
-	bl "Yuri walks to the corner of the room and opens the closet."
+	bl "Yuri cammina verso l'angolo della stanza e apre l'armadio."
 	elseif cl == 115 then
-	bl "Meanwhile, Monika and Natsuki sit across from each other."
+	bl "Intanto, Monika e Natsuki si siedono di fronte l'altra."
 	elseif cl == 116 then
-	bl "Still feeling awkward, I take a seat next to Monika."
+	bl "Ancora sentendomi a disagio, prendo un posto accanto a Monika."
 	elseif cl == 117 then
 	updateMonika('1','a',80)
-	m "So, I know you didn't really plan on coming here..."
+	m "Allora, so che non avevi davvero in programma di venire qui..."
 	elseif cl == 118 then
-	m "But we'll make sure you feel right at home, okay?"
+	m "Ma ci assicureremo che ti senta a casa, ok?"
 	elseif cl == 119 then
 	updateMonika('1','j')
-	m "As president of the Literature Club, it's my duty to make the club fun and exciting for everyone!"
+	m "Come presidente del Club di Letteratura, è mio dovere rendere il club divertente ed emozionante per tutti!"
 	elseif cl == 120 then
-	mc "I'm surprised there aren't more people in the club yet."
+	mc "Sono sorpreso che non ci siano ancora più persone nel club."
 	elseif cl == 121 then
-	mc "It must be hard to start a new club."
+	mc "Deve essere difficile iniziare un nuovo club."
 	elseif cl == 122 then
 	updateMonika('3','b')
-	m "You could put it that way."
+	m "Potresti metterlo in quel modo."
 	elseif cl == 123 then
-	m "Not many people are very interested in putting out all the effort to start something brand new..."
+	m "Non molte persone sono molto interessate a mettere fuori tutti gli sforzi per iniziare qualcosa di completamente nuovo..."
 	elseif cl == 124 then
-	m "Especially when it's something that doesn't grab your attention, like literature."
+	m "Soprattutto quando è qualcosa che non attira la tua attenzione, come la letteratura."
 	elseif cl == 125 then
-	m "You have to work hard to convince people that you're both fun and worthwhile."
+	m "Bisogna lavorare sodo per convincere le persone che si sono divertenti e utili."
 	elseif cl == 126 then
-	m "But it makes school events, like the festival, that much more important."
+	m "Ma rende gli eventi scolastici, come il festival, ancora più importanti."
 	elseif cl == 127 then
 	updateMonika('2','k')
-	m "I'm confident that we can all really grow this club before we graduate!"
+	m "Sono fiduciosa che possiamo tutti davvero far crescere questo club prima di diplomarci!"
 	elseif cl == 128 then
-	m "Right, Natsuki?"
+	m "Giusto, Natsuki?"
 	elseif cl == 129 then
 	updateNatsuki('4','q',10)
 	updateMonika('2','k',150)
-	n "Well..."
+	n "Beh..."
 	elseif cl == 130 then
-	n "...I guess."
+	n "...Immagino."
 	elseif cl == 131 then
-	bl "Natsuki reluctantly agrees."
+	bl "Natsuki acconsente riluttante."
 	elseif cl == 132 then
-	bl "Such different girls, all interested in the same goal..."
+	bl "Ragazze così diverse, tutte interessate allo stesso obiettivo..."
 	elseif cl == 133 then
-	bl "Monika must have worked really hard just to find these two."
+	bl "Monika deve aver lavorato davvero duro solo per trovare queste due."
 	elseif cl == 134 then
-	bl "Yuri returns to the table, carrying a tea set."
+	bl "Yuri torna al tavolo, portando un servizio di tè."
 	elseif cl == 135 then
-	bl "She carefully places a teacup in front of each of us before setting down the teapot in the middle."
+	bl "Colloca con cura una tazza di tè davanti a ciascuno di noi prima di posare il teiera in mezzo."
 	elseif cl == 136 then
 	hideNatsuki()
 	hideMonika()
 	updateYuri('1','a',10)
-	mc "You keep a whole tea set in this classroom?"
+	mc "Tieni un intero servizio di tè in questa aula?"
 	elseif cl == 137 then
-	y "Don't worry, the teachers gave us permission."
+	y "Non preoccuparti, i insegnanti ci hanno dato il permesso."
 	elseif cl == 138 then
-	y "After all, doesn't a hot cup of tea help you enjoy a good book?"
+	y "Dopotutto, non aiuta una tazza calda di tè a godersi un buon libro?"
 	elseif cl == 139 then
-	mc "Ah... I-I guess..."
+	mc "Ah... I-Immagino..."
 	elseif cl == 140 then
 	updateMonika('4','a',150)
-	m "Ehehe, don't let yourself get intimidated, Yuri's just trying to impress you."
+	m "Ehehe, non lasciate che vi intimidiscano, Yuri sta solo cercando di impressionarti."
 	elseif cl == 141 then
 	updateYuri('3','n')
-	y "Eh?! T-That's not..."
+	y "Eh?! N-Non è..."
 	elseif cl == 142 then
-	bl "Insulted, Yuri looks away."
+	bl "Offesa, Yuri distoglie lo sguardo."
 	elseif cl == 143 then
 	updateYuri('4','b2')
-	y "I meant that, you know..."
+	y "Intendevo dire che, lo sai..."
 	elseif cl == 144 then
-	mc "I believe you."
+	mc "Ti credo."
 	elseif cl == 145 then
-	mc "Well, tea and reading might not be a pastime for me, but I at least enjoy tea."
+	mc "Beh, tè e lettura potrebbero non essere un passatempo per me, ma almeno godono il tè."
 	elseif cl == 146 then
 	updateYuri('2','u')
-	y "I'm glad..."
+	y "Sono felice..."
 	elseif cl == 147 then
-	bl "Yuri faintly smiles to herself in relief."
+	bl "Yuri sorride debolmente a se stessa con sollievo."
 	elseif cl == 148 then
 	hideMonika()
 	updateYuri('1','a',80)
-	cw('y',"So, "..player..", what kinds of things do you like to read?")
+	cw('y',"Allora, "..player..", che tipo di cose ti piace leggere?"")
 	elseif cl == 149 then
-	mc "Well... Ah..."
+	mc "Beh... Ah..."
 	elseif cl == 150 then
-	bl "Considering how little I've read these past few years, I don't really have a good way of answering that."
+	bl "Considerando quanto poco ho letto negli ultimi anni, non ho davvero un buon modo per rispondere a quello."
 	elseif cl == 151 then
 	mc "...Manga..."
 	elseif cl == 152 then
-	bl "I mutter quietly to myself, half-joking."
+	bl "Borbottavo piano a me stesso, mezzo scherzoso."
 	elseif cl == 153 then
 	updateNatsuki('1','c',-50)
-	bl "Natsuki's head suddenly perks up."
+	bl "La testa di Natsuki si alza improvvisamente."
 	elseif cl == 154 then
-	bl "It looks like she wants to say something, but she keeps quiet."
+	bl "Sembra che voglia dire qualcosa, ma resta silenziosa."
 	elseif cl == 155 then
 	hideNatsuki()
 	updateYuri('3','u')
-	y "N-Not much of a reader, I guess..."
+	y "N-Non molto lettrice, immagino..."
 	elseif cl == 156 then
-	mc "...Well, that can change..."
+	mc "...Beh, può cambiare..."
 	elseif cl == 157 then
-	bl "What am I saying?"
+	bl "Cosa sto dicendo?"
 	elseif cl == 158 then
-	bl "I spoke without thinking after seeing Yuri's sad smile."
+	bl "Ho parlato senza pensare dopo aver visto il triste sorriso di Yuri."
 	elseif cl == 159 then
-	mc "Anyway, what about you, Yuri?"
+	mc "Comunque, cosa ne dici tu, Yuri?"
 	elseif cl == 160 then
 	updateYuri('1','l')
-	y "Well, let's see..."
+	y "Beh, lasciami vedere..."
 	elseif cl == 161 then
-	bl "Yuri traces the rim of her teacup with her finger."
+	bl "Yuri traccia il bordo della sua tazza di tè con il dito."
 	elseif cl == 162 then
 	updateYuri('1','a')
-	y "My favorites are usually novels that build deep and complex fantasy worlds."
+	y "I miei preferiti sono di solito romanzi che costruiscono mondi fantasy profondi e complessi."
 	elseif cl == 163 then
-	y "The level of creativity and craftsmanship behind them is amazing to me."
+	y "Il livello di creatività e artigianato dietro di loro è ammazzante per me."
 	elseif cl == 164 then
 	updateYuri('1','f')
-	y "And telling a good story in such a foreign world is equally impressive."
+	y "E raccontare una buona storia in un mondo così estraneo è ugualmente impressionante."
 	elseif cl == 165 then
-	bl "Yuri goes on, clearly passionate about her reading."
+	bl "Yuri continua, chiaramente appassionata della sua lettura."
 	elseif cl == 166 then
-	bl "She seemed so reserved and timid since the moment I walked in, but it's obvious by the way her eyes light up that she finds her comfort in the world of books, not people."
+	bl "Sembra così riservata e timida dal momento in cui ho camminato dentro, ma è ovvio dal modo in cui i suoi occhi si illuminano che trova il suo comfort nel mondo dei libri, non delle persone."
 	elseif cl == 167 then
 	updateYuri('2','m')
-	y "But you know, I like a lot of things."
+	y "Ma lo sai, mi piace molte cose."
 	elseif cl == 168 then
-	y "Stories with deep psychological elements usually immerse me as well."
+	y "Le storie con elementi psicologici profondi di solito mi immergono anche."
 	elseif cl == 169 then
 	updateYuri('2','a')
-	y "Isn't it amazing how a writer can so deliberately take advantage of your own lack of imagination to completely throw you for a loop?"
+	y "Non è ammazzante come uno scrittore può così deliberatamente sfruttare la tua mancanza di immaginazione per buttarti completamente fuori dalla finestra?"
 	elseif cl == 170 then
-	y "Anyway, I've been reading a lot of horror lately..."
+	y "Comunque, ho letto molto horror ultimamente..."
 	elseif cl == 171 then
-	mc "Ah, I read a horror book once..."
+	mc "Ah, ho letto un libro horror una volta..."
 	elseif cl == 172 then
-	bl "I desperately grasp something I can relate to at the minimal level."
+	bl "Afferrano disperatamente qualcosa che posso relazionare al livello minimo."
 	elseif cl == 173 then
-	bl "At this rate, Yuri might as well be having a conversation with a rock."
+	bl "A questo ritmo, Yuri potrebbe tanto bene essere avere una conversazione con una roccia."
 	elseif cl == 174 then
 	updateMonika('1','j',200)
-	m "Ahaha. I'd expect that from you, Yuri."
+	m "Ahaha. Lo avrei aspettato da te, Yuri."
 	elseif cl == 175 then
 	updateMonika('1','a')
-	m "It suits your personality."
+	m "Si adatta alla tua personalità."
 	elseif cl == 176 then
 	updateYuri('1','a')
-	y "Oh, is that so?"
+	y "Oh, è così?"
 	elseif cl == 177 then
-	y "Really, if a story makes me think, or takes me to another world, then I really can't put it down."
+	y "Davvero, se una storia mi fa pensare, o mi porta in un altro mondo, allora davvero non posso lasciarlo andare."
 	elseif cl == 178 then
-	y "Surreal horror is often very successful at changing the way you look at the world, if only for a brief moment."
+	y "L'horror surreale è spesso molto riuscito nel cambiare il modo in cui guardi il mondo, anche solo per un breve momento."
 	elseif cl == 179 then
 	updateNatsuki('5','q',-40)
-	n "Ugh, I hate horror..."
+	n "Ugh, odio l'horror..."
 	elseif cl == 180 then
 	updateYuri('1','f')
-	y "Oh? Why's that?"
+	y "Oh? Perché?"
 	elseif cl == 181 then
 	updateNatsuki('5','c')
-	n "Well, I just..."
+	n "Beh, io solo..."
 	elseif cl == 182 then
-	bl "Natsuki's eyes dart over to me for a split second."
+	bl "Gli occhi di Natsuki si voltano verso di me per una frazione di secondo."
 	elseif cl == 183 then
 	updateNatsuki('5','q')
-	n "Never mind."
+	n "Mai niente."
 	elseif cl == 184 then
 	updateMonika('1','a')
-	m "That's right, you usually like to write about cute things, don't you, Natsuki?"
+	m "Giusto, di solito ti piace scrivere di cose carine, non è così, Natsuki?"
 	elseif cl == 185 then
 	updateNatsuki('1','o')
-	n "W-What?"
+	n "C-Cosa?"
 	elseif cl == 186 then
-	n "What gives you that idea?"
+	n "Cosa ti fa pensare questo?"
 	elseif cl == 187 then
 	updateMonika('3','b')
-	m "You left a piece of scrap paper behind last club meeting."
+	m "Hai lasciato un pezzo di carta dietro l'ultima riunione del club."
 	elseif cl == 188 then
-	m "It looked like you were working on a poem called--"
+	m "Sembra che stavi lavorando su una poesia chiamata--"
 	elseif cl == 189 then
 	updateNatsuki('1','p')
-	n "Don't say it out loud!!"
+	n "Non dirlo ad alta voce!!"
 	elseif cl == 190 then
-	n "And give that back!"
+	n "E restitui quello indietro!"
 	elseif cl == 191 then
 	updateMonika('1','j')
-	m "Fine, fine~"
+	m "Va bene, va bene~"
 	elseif cl == 192 then
 	updateMonika('1','a')
-	mc "Natsuki, you write your own poems?"
+	mc "Natsuki, scrivi le tue poesie?"
 	elseif cl == 193 then
 	updateNatsuki('1','c')
-	n "Eh? Well, I guess sometimes."
+	n "Eh? Beh, immagino a volte."
 	elseif cl == 194 then
-	n "Why do you care?"
+	n "Perché ti importa?"
 	elseif cl == 195 then
-	mc "I think that's impressive."
+	mc "Penso che sia impressionante."
 	elseif cl == 196 then
-	mc "Why don't you share them sometime?"
+	mc "Perché non li condividi a volte?"
 	elseif cl == 197 then
 	updateNatsuki('5','q')
 	n "N-No!"
 	elseif cl == 198 then
-	bl "Natsuki averts her eyes."
+	bl "Natsuki distoglie lo sguardo."
 	elseif cl == 199 then
-	n "You wouldn't...like them..."
+	n "Non ti... piacere..."
 	elseif cl == 200 then
-	mc "Ah...not a very confident writer yet?"
+	mc "Ah... non una scrittrice molto fiduciosa ancora?"
 	elseif cl == 201 then
 	updateYuri('2','f')
-	y "I understand how Natsuki feels."
+	y "Capisco come si sente Natsuki."
 	elseif cl == 202 then
-	y "Sharing that level of writing takes more than just confidence."
+	y "Condividere quel livello di scrittura richiede più che solo fiducia."
 	elseif cl == 203 then
 	updateYuri('2','k')
-	y "The truest form of writing is writing to oneself."
+	y "La forma più vera della scrittura è scrivere a se stessi."
 	elseif cl == 204 then
-	y "You must be willing to open up to your readers, exposing your vulnerabilities and showing even the deepest reaches of your heart."
+	y "Bisogna essere disposti ad aprirsi ai tuoi lettori, esponendo le tue vulnerabilità e mostrando anche le profondità più profonde del tuo cuore."
 	elseif cl == 205 then
 	updateMonika('2','a')
-	m "Do you have writing experience too, Yuri?"
+	m "Hai esperienza di scrittura anche tu, Yuri?"
 	elseif cl == 206 then
-	m "Maybe if you share some of your work, you can set an example and help Natsuki feel comfortable enough to share hers."
+	m "Forse se condividi alcune delle tue opere, puoi dare un esempio e aiutare Natsuki a sentirsi abbastanza a suo agio da condividere le sue."
 	elseif cl == 207 then
 	updateYuri('3','o')
 	y "..."
 	elseif cl == 208 then
-	mc "I guess it's the same for Yuri..."
+	mc "Immagino che sia lo stesso per Yuri..."
 	elseif cl == 209 then
-	bl "We all sit in silence for a moment."
+	bl "Ci sediamo tutti in silenzio per un momento."
 	elseif cl == 210 then
 	updateMonika('5a')
-	m "Hey, I just got an idea!"
+	m "Ehi, mi è venuta un'idea!"
 	elseif cl == 211 then
-	m "How about this?"
+	m "Cosa ne dici di questo?"
 	elseif cl == 212 then
 	updateNatsuki('2','k')
 	updateYuri('3','e')
 	cw('ny',"...?")
 	elseif cl == 213 then
-	bl "Natsuki and Yuri look quizzically at Monika."
+	bl "Natsuki e Yuri guardano Monika con curiosità."
 	elseif cl == 214 then
 	updateMonika('2','b')
-	m "Let's all go home and write a poem of our own!"
+	m "Andiamo tutti a casa e scriviamo una poesia nostra!"
 	elseif cl == 215 then
-	m "Then, next time we meet, we'll all share them with each other."
+	m "Poi, la prossima volta che ci incontreremo, la condivideremo tutti l'uno con l'altra."
 	elseif cl == 216 then
-	m "That way, everyone is even!"
+	m "In quel modo, tutti sono alla pari!"
 	elseif cl == 217 then
 	updateMonika('2','a')
 	updateNatsuki('5','q')
@@ -553,171 +553,171 @@ function ch20script()
 	updateMonika('2','m')
 	m "Ah..."
 	elseif cl == 220 then
-	m "I mean, I thought it was a good idea..."
+	m "Voglio dire, pensavo fosse un'idea buona..."
 	elseif cl == 221 then
 	updateYuri('2','l')
-	y "Well..."
+	y "Beh..."
 	elseif cl == 222 then
-	y "...I think you're right, Monika."
+	y "...Penso che tu abbia ragione, Monika."
 	elseif cl == 223 then
 	updateYuri('2','f')
-	y "We should probably start finding activities for all of us to participate in together."
+	y "Dovremmo probabilmente iniziare a trovare attività per tutti noi da partecipare insieme."
 	elseif cl == 224 then
 	updateYuri('2','h')
-	y "I did decide to take on the responsibility of Vice President, after all..."
+	y "Ho deciso di prendere la responsabilità di Vice Presidente, dopotutto..."
 	elseif cl == 225 then
-	y "I need to do my best to nurture the club as well as its members."
+	y "Devo fare del mio meglio per coltivare il club così come i suoi membri."
 	elseif cl == 226 then
 	updateYuri('2','a')
-	y "Besides, now that we have a new member..."
+	y "Poi, ora che abbiamo un nuovo membro..."
 	elseif cl == 227 then
-	y "It seems like a good step for us to take."
+	y "Sembra un buon passo da fare."
 	elseif cl == 228 then
-	cw('y',"Do you agree as well, "..player.."?")
+	cw('y',"Sei d'accordo anche tu, "..player.."?")
 	elseif cl == 229 then
-	mc "Hold on...there's still one problem."
+	mc "Aspetta... c'è ancora un problema."
 	elseif cl == 230 then
 	updateMonika('1','d')
-	m "Eh? What's that?"
+	m "Eh? Che cosa?"
 	elseif cl == 231 then
-	bl "Now that we've reached the most important topic, I bluntly come forth with what's been on my mind the entire time."
+	bl "Ora che siamo arrivati al tema più importante, mi presento in modo diretto con quello che è stato nella mia mente per tutto il tempo."
 	elseif cl == 232 then
-	mc "I never said I would join this club!"
+	mc "Non ho mai detto che mi unirei a questo club!"
 	elseif cl == 233 then
-	mc "Monika may have convinced me to stop by, but I never made any decision."
+	mc "Monika potrebbe avermi convinto a passare, ma non ho mai preso alcuna decisione."
 	elseif cl == 234 then
 	scriptJump(300)
 	elseif cl == 300 then
-	mc "I still have other clubs to look at, and...um..."
+	mc "Ho ancora altri club da guardare, e... ehm..."
 	elseif cl == 301 then
 	updateMonika('1','g')
 	updateNatsuki('4','g')
 	updateYuri('2','e')
-	bl "I lose my train of thought."
+	bl "Perdo il filo del mio discorso."
 	elseif cl == 302 then
 	scriptJump(235)
 	elseif cl == 235 then
-	bl "All three girls stare back at me with dejected eyes."
+	bl "Tutte e tre le ragazze mi guardano indietro con occhi deformati."
 	elseif cl == 236 then
 	updateMonika('1','p')
-	m "B-But..."
+	m "M-Ma..."
 	elseif cl == 237 then
 	updateYuri('2','v')
-	y "I'm sorry, I thought..."
+	y "Mi dispiace, pensavo..."
 	elseif cl == 238 then
 	updateNatsuki('5','s')
 	n "Hmph."
 	elseif cl == 239 then
 	mc "Eh...?"
 	elseif cl == 240 then
-	bl "The girls exchange glances before Monika turns back to me."
+	bl "Le ragazze si scambiano sguardi prima che Monika torni a me."
 	elseif cl == 241 then
 	updateMonika('1','m')
-	cw('m',"I...guess I need to tell you the truth, "..player..".")
+	cw('m',"Immagino di dover dirti la verità, "..player..".")
 	elseif cl == 242 then
-	m "The thing is..."
+	m "La cosa è..."
 	elseif cl == 243 then
 	updateMonika('1','p')
-	m "...We don't have enough members yet to form an official club."
+	m "...Non abbiamo ancora abbastanza membri per formare un club ufficiale."
 	elseif cl == 244 then
-	m "We need four..."
+	m "Ne servono quattro..."
 	elseif cl == 245 then
-	m "And I've been trying really, really hard to find new members."
+	m "E ho provato davvero, davvero duro a trovare nuovi membri."
 	elseif cl == 246 then
-	m "And if we don't find one more before the festival..."
+	m "E se non ne troviamo un altro prima del festival..."
 	elseif cl == 247 then
 	mc "..."
 	elseif cl == 248 then
-	bl "I...I'm defenseless against these girls."
+	bl "I-sono indifesa contro queste ragazze."
 	elseif cl == 249 then
-	bl "How am I supposed to make a clear-headed decision when it's like this?"
+	bl "Come posso prendere una decisione lucida quando è così?"
 	elseif cl == 250 then
-	bl "I would feel terrible for letting everyone down in this situation..."
+	bl "Mi sentirei terribile di far cadere tutti in questa situazione..."
 	elseif cl == 251 then
-	bl "And besides, the club itself seems pretty relaxed..."
+	bl "E poi, il club stesso sembra abbastanza rilassato..."
 	elseif cl == 252 then
-	bl "So, if writing poems is the price I need to pay in order to spend every day with these beautiful girls..."
+	bl "Quindi, se scrivere poesie è il prezzo che devo pagare per passare ogni giorno con queste ragazze bellissime..."
 	elseif cl == 253 then
-	mc "...Right."
+	mc "...Giusto."
 	elseif cl == 254 then
-	mc "Okay, I've decided, then."
+	mc "Va bene, ho deciso, allora."
 	elseif cl == 255 then
-	mc "I'll join the Literature Club."
+	mc "Mi unisco al Club di Letteratura."
 	elseif cl == 256 then
 	updateMonika('1','e')
 	updateYuri('3','f')
 	updateNatsuki('1','k')
-	bl "One by one, the girls' eyes light up."
+	bl "Una per una, gli occhi delle ragazze si illuminano."
 	elseif cl == 257 then
-	m "Oh my goodness, really?"
+	m "Che meraviglia, davvero?"
 	elseif cl == 258 then
-	cw('m',"Do you really mean that, "..player.."?")
+	cw('m',"Lo pensi davvero, "..player.."?")
 	elseif cl == 259 then
-	mc "Yeah..."
+	mc "Sì..."
 	elseif cl == 260 then
-	mc "It could be fun, right?"
+	mc "Potrebbe essere divertente, no?"
 	elseif cl == 261 then
 	updateYuri('1','m')
-	y "You really did scare me for a moment..."
+	y "Mi hai fatto davvero paura per un momento..."
 	elseif cl == 262 then
 	updateNatsuki('5','q')
-	n "I mean, if you really just left after all this, I would be super pissed."
+	n "Voglio dire, se davvero ti fossi solo andato via dopo tutto questo, sarei super arrabbiata."
 	elseif cl == 263 then
-	cw('m',player..", I'm so happy...")
+	cw('m',player..", sono così felice...")
 	elseif cl == 264 then
 	updateMonika('1','k')
-	m "We can become an official club now!"
+	m "Possiamo diventare un club ufficiale ora!"
 	elseif cl == 265 then
 	updateMonika('1','e')
-	m "Thank you so much for this. You're really amazing."
+	m "Grazie mille per questo. Sei davvero ammazzante."
 	elseif cl == 266 then
-	m "I'll do everything I can to give you a great time, okay?"
+	m "Farò tutto ciò che posso per darti un grande tempo, ok?"
 	elseif cl == 267 then
-	mc "Ah...thanks, I guess."
+	mc "Ah... grazie, immagino."
 	elseif cl == 268 then
 	hideYuri()
 	hideNatsuki()
 	updateMonika('3','b',80)
-	m "Okay, everyone!"
+	m "Va bene, tutti!"
 	elseif cl == 269 then
-	m "I think with that, we can officially end today's meeting on a good note."
+	m "Penso che con questo possiamo ufficialmente finire la riunione di oggi con una nota positiva."
 	elseif cl == 270 then
-	m "Everyone remember tonight's assignment:"
+	m "Ricordate tutti l'assegnazione di stasera:"
 	elseif cl == 271 then
-	m "Write a poem to bring to the next meeting, so we can all share!"
+	m "Scrivere una poesia da portare alla prossima riunione, così possiamo tutti condividerla!"
 	elseif cl == 272 then
-	bl "Monika looks over at me once more."
+	bl "Monika mi guarda un'altra volta."
 	elseif cl == 273 then
 	updateMonika('1','a')
-	cw('m',player..", I look forward to seeing how you express yourself.")
+	cw('m',player..", aspetto di vedere come ti esprimi.")
 	elseif cl == 274 then
 	updateMonika('5a')
 	m "Ehehe~"
 	elseif cl == 275 then
-	mc "Y-Yeah..."
+	mc "S-Sì..."
 	elseif cl == 276 then
 	hideMonika()
-	bl "Can I really impress the class star Monika with my mediocre writing skills?"
+	bl "Posso davvero impressionare la stella della classe Monika con le mie abilità di scrittura mediocri?"
 	elseif cl == 277 then
-	bl "I already feel the anxiety welling up inside me."
+	bl "Già sento l'ansia che si accumula dentro di me."
 	elseif cl == 278 then
-	bl "Meanwhile, the girls continue to chit-chat as Yuri cleans up the tea set."
+	bl "Intanto, le ragazze continuano a chiacchierare mentre Yuri ripulisce il servizio di tè."
 	elseif cl == 279 then
-	mc "I guess I'll be on my way, then..."
+	mc "Immagino che sarò in viaggio, allora..."
 	elseif cl == 280 then
 	updateMonika('5a','',80)
-	m "Okay!"
+	m "Va bene!"
 	elseif cl == 281 then
-	m "I'll see you tomorrow, then."
+	m "Ci vediamo domani, allora."
 	elseif cl == 282 then
-	m "I can't wait!"
+	m "Non vedo l'ora!"
 	
 	elseif cl == 283 then
 	bgUpdate('residential')
 	hideMonika()
-	bl "With that, I depart the clubroom and make my way home."
+	bl "Con questo, lascio la sala del club e mi dirigo a casa."
 	elseif cl == 284 then
-	bl "The whole way, my mind wanders back and forth between the three girls:"
+	bl "Per tutto il cammino, la mia mente vaga avanti e indietro tra le tre ragazze:"
 	elseif cl == 285 then
 	updateNatsuki('4','a',-40)
 	bl "Natsuki,"
@@ -726,18 +726,18 @@ function ch20script()
 	bl "Yuri,"
 	elseif cl == 287 then
 	updateMonika('1','a',200)
-	bl "and, of course, Monika."
+	bl "e, naturalmente, Monika."
 	elseif cl == 288 then
-	bl "Will I really be happy spending every day after school in a literature club?"
+	bl "Sarò davvero felice di passare ogni giorno dopo la scuola in un club di letteratura?"
 	elseif cl == 289 then
-	bl "Perhaps I'll have the chance to grow closer to one of these girls..."
+	bl "Forse avrò l'opportunità di crescere più vicino a una di queste ragazze..."
 	elseif cl == 290 then
 	hideAll()
-	bl "Alright!"
+	bl "Va bene!"
 	elseif cl == 291 then
-	bl "I'll just need to make the most of my circumstances, and I'm sure good fortune will find me."
+	bl "Basterà sfruttare le mie circostanze, e sono sicuro che la buona fortuna mi troverà."
 	elseif cl == 292 then
-	bl "And I guess that starts with writing a poem tonight..."
+	bl "E immagino che inizi con lo scrivere una poesia stasno..."
 	elseif cl == 293 then
 	fadeOut(4)
 	elseif cl == 294 then
@@ -746,8 +746,8 @@ function ch20script()
 	elseif cl == 295 then
 	audioUpdate('0')
 	bgUpdate('black')
-	menutext = 'You have unlocked a special poem.\nWould you like to read it?'
-	choices = {'Yes','No'}
+	menutext = 'Hai sbloccato una poesia speciale.\nVuoi leggerla?'
+	choices = {'Sì','No'}
 	choice_enable()
 	elseif cl == 296 then
 	if choicepick == 'Yes' then
