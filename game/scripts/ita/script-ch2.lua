@@ -9,137 +9,137 @@ function ch2script()
 	if cl == 1149 then
 		bgUpdate('club')
 		audioUpdate('2')
-		cw('bl',"Another day passes, and it's time for the club meeting already.")
+		cw('bl',"Un altro giorno passa, ed è già ora della riunione del club.")
 	elseif cl == 1150 then
-		cw('bl',"I've gotten a little more comfortable here over the past couple days.")
+		cw('bl',"Negli ultimi giorni mi sono abituato un po' di più a questo posto.")
 	elseif cl == 1151 then
-		cw('bl',"Entering the clubroom, the usual scene greets me.")
+		cw('bl',"Entrando nella sala del club, la scena di sempre mi accoglie.")
 	elseif cl == 1152 then
 		updateSayori('2','x',80)
-		cw('s',"Hi "..player.."~")
+		cw('s',"Ciao "..player.."~")
 	elseif cl == 1153 then	
-		cw('mc',"Yo, Sayori.")
+		cw('mc',"Ehi, Sayori.")
 	elseif cl == 1154 then
-		cw('mc',"Looks like you're in a good mood today.")
+		cw('mc',"Sembra che tu sia di buon umore oggi.")
 	elseif cl == 1155 then
 		updateSayori('1','q')
 		cw('s',"Ehehe~")
 	elseif cl == 1156 then
-		cw('s',"I'm just still not used to you being in the club, that's all.")
+		cw('s',"Sono semplicemente ancora abituata al fatto che tu sia nel club, è tutto.")
 	elseif cl == 1157 then
-		cw('mc',"I see...")
+		cw('mc',"Vedo...")
 	elseif cl == 1158 then
-		cw('mc',"...That's a pretty simple thing to get you in a good mood.")
+		cw('mc',"...È una cosa piuttosto semplice da cui ti metti di buon umore.")
 	elseif cl == 1159 then
-		cw('mc',"But I guess it's always the simple things with you, anyway.")
+		cw('mc',"Ma suppongo che con te siano sempre le cose semplici, comunque.")
 	elseif cl == 1160 then
 		updateSayori('1','d')
-		cw('s',"Speaking of which...")
+		cw('s',"A proposito...")
 	elseif cl == 1161 then
-		cw('s',"I'm kinda hungry...")
+		cw('s',"Ho un po' di fame...")
 	elseif cl == 1162 then
-		cw('s',"Will you come with me to buy a snack?")
+		cw('s',"Vieni con me a comprare uno snack?")
 	elseif cl == 1163 then
-		cw('mc',"No thanks.")
+		cw('mc',"No, grazie.")
 	elseif cl == 1164 then
 		updateSayori('4','h')
-		cw('s',"Eh??")
+		cw('s',"Eh?")
 	elseif cl == 1165 then
-		cw('s',"T-That's not like you at all!!")
+		cw('s',"T-Non è da te per niente!!")
 	elseif cl == 1166 then
-		cw('mc',"I have my reasons.")
+		cw('mc',"Ho i miei motivi.")
 	elseif cl == 1167 then
-		cw('mc',"Why don't we take a look at your purse, Sayori?")
+		cw('mc',"Perché non diamo un'occhiata al tuo portafoglio, Sayori?")
 	elseif cl == 1168 then
 		updateSayori('4','l')
 		cw('s',"E-Eh?")
 	elseif cl == 1169 then
-		cw('s',"Why that...all of a sudden?")
+		cw('s',"Perché... tutti di colpo?")
 	elseif cl == 1170 then
-		cw('mc',"No reason, really.")
+		cw('mc',"Nessun motivo, davvero.")
 	elseif cl == 1171 then
-		cw('mc',"I just wanted to look at it.")
+		cw('mc',"Volevo solo dare un'occhiata.")
 	elseif cl == 1172 then
 		updateSayori('1','l')
 		cw('s',"A-Ah...")
 	elseif cl == 1173 then
-		cw('bl',"Sayori nervously retrieves her coin purse.")
+		cw('bl',"Sayori recupera nervosamente il portafoglio.")
 	elseif cl == 1174 then
-		cw('bl',"She fumbles with the latch and gets it open.")
+		cw('bl',"Fatica con la fibura e riesce ad aprirlo.")
 	elseif cl == 1175 then
-		cw('bl',"Then, she turns it upside-down and lets its contents spill onto the desk.")
+		cw('bl',"Poi lo capovolge e lascia che il contenuto si sparga sulla scrivania.")
 	elseif cl == 1176 then
-		cw('bl',"Only two small coins fall out.")
+		cw('bl',"Solo due piccole monete cadono fuori.")
 	elseif cl == 1177 then
 		updateSayori('5a')
 		cw('s',"A-Ahaha...")
 	elseif cl == 1178 then
-		cw('mc',"I knew it...")
+		cw('mc',"Lo sapevo...")
 	elseif cl == 1179 then
-		cw('mc',"I can see right through you, Sayori.")
+		cw('mc',"Ti vedo attraverso, Sayori.")
 	elseif cl == 1180 then
 		updateSayori('5c')
-		cw('s',"That's not fair!")
+		cw('s',"Non è giusto!")
 	elseif cl == 1181 then
-		cw('s',"How did you even know?")
+		cw('s',"Come lo hai capito?")
 	elseif cl == 1182 then
-		cw('mc',"It's simple.")
+		cw('mc',"È semplice.")
 	elseif cl == 1183 then
-		cw('mc',"If you had enough money in the first place, you would have bought a snack before coming to the clubroom.")
+		cw('mc',"Se avessi avuto abbastanza soldi fin dall'inizio, avresti comprato uno snack prima di venire al club.")
 	elseif cl == 1184 then
-		cw('mc',"So, either you're not hungry and wanted an excuse to take a walk...")
+		cw('mc',"Quindi, o non hai fame e volevi una scusa per fare una passeggiata...")
 	elseif cl == 1185 then
-		cw('mc',"Or, you planned to conveniently forget that you spent all your money, so that I would lend you some!")
+		cw('mc',"O avevi pianificato di dimenticare comoda che avevi speso tutti i tuoi soldi, così che io ti prestassi qualcosa!")
 	elseif cl == 1186 then
-		cw('mc',"But there's one more thing...")
+		cw('mc',"Ma c'è un'altra cosa...")
 	elseif cl == 1187 then
-		cw('mc',"...You're always hungry!")
+		cw('mc',"...Sei sempre affamata!")
 	elseif cl == 1188 then
-		cw('mc',"And so, that only leaves the one option!")
+		cw('mc',"E così, resta solo un'opzione!")
 	elseif cl == 1189 then
 		updateSayori('4','p')
 		cw('s',"Uwaaa~!")
 	elseif cl == 1190 then
-		cw('s',"I give up!")
+		cw('s',"Mi arrendo!")
 	elseif cl == 1191 then
-		cw('s',"Don't make me feel guiltyyy!")
+		cw('s',"Non farmi sentire in colpaoo!")
 	elseif cl == 1192 then
-		cw('mc',"If you feel guilty, that means you deserve to feel guilty...")
+		cw('mc',"Se ti senti in colpa, significa che meriti di sentirti in colpa...")
 	elseif cl == 1193 then
 		updateYuri('1','c',200)
 		cw('y',"Ahaha.")
 	elseif cl == 1194 then
-		cw('bl',"Yuri suddenly giggles.")
+		cw('bl',"Yuri ride improvvisamente.")
 	elseif cl == 1195 then
 		updateSayori('4','g')
-		cw('bl',"I didn't notice that she was listening in.")
+		cw('bl',"Non mi ero accorta che stava ascoltando.")
 	elseif cl == 1196 then
-		cw('bl',"Her face is in her book, as always.")
+		cw('bl',"Il suo viso è dietro il libro, come sempre.")
 	elseif cl == 1197 then
 		updateYuri('3','n')
 		cw('y',"A-Ah!")
 	elseif cl == 1198 then
-		cw('y',"I wasn't listening or anything--!")
+		cw('y',"Non stavo ascoltando o niente--!")
 	elseif cl == 1199 then
 		updateYuri('3','o')
-		cw('y',"It was just...something in my book...")
+		cw('y',"Era solo... qualcosa nel mio libro...")
 	elseif cl == 1200 then
 		updateSayori('1','h')
 		cw('s',"Yuriiii...")
 	elseif cl == 1201 then
-		cw('s',"Tell "..player.." to let me borrow some money...")
+		cw('s',"Di' a "..player.." di prestarmi un po' di soldi...")
 	elseif cl == 1202 then
 		updateYuri('3','h')
-		cw('y',"That's--!")
+		cw('y',"Non--!")
 	elseif cl == 1203 then
-		cw('y',"Don't get me involved like that, Sayori...")
+		cw('y',"Non coinvoltermi in questo modo, Sayori...")
 	elseif cl == 1204 then
-		cw('y',"Besides...")
+		cw('y',"Comunque...")
 	elseif cl == 1205 then
 		updateYuri('1','k')
-		cw('y',"You should only buy what you can responsibly afford...")
+		cw('y',"Dovresti comprare solo ciò che puoi permetterti responsabilmente...")
 	elseif cl == 1206 then
-		cw('y',"And frankly, after pulling a mischievous little stunt like that, your suffering is fair enough retribution.")
+		cw('y',"E francamente, dopo un piccolo scherzo come quello, la tua sofferenza è una giusta retribuzione.")
 	elseif cl == 1207 then
 		updateSayori('1','b')
 		cw('mc',"...")
@@ -147,12 +147,12 @@ function ch2script()
 		updateYuri('3','n')
 		cw('y',"Ah--!")
 	elseif cl == 1209 then
-		cw('y',"Did I just...")
+		cw('y',"Ho appena...")
 	elseif cl == 1210 then
 		updateYuri('4','c2')
-		cw('y',"I-I didn't mean that!!")
+		cw('y',"N-Non volevo dirlo!!")
 	elseif cl == 1211 then
-		cw('y',"I got too absorbed into my book...")
+		cw('y',"Mi sono lasciata assorbire troppo dal libro...")
 	elseif cl == 1212 then
 		cw('y',"Uu...")
 	elseif cl == 1213 then
@@ -160,48 +160,48 @@ function ch2script()
 		cw('s',"Ahaha!")
 	elseif cl == 1214 then
 		updateSayori('3','x')
-		cw('s',"I really like when you speak your mind, Yuri...")
+		cw('s',"Mi piace davvero quando dici quello che pensi, Yuri...")
 	elseif cl == 1215 then
-		cw('s',"It doesn't happen much, but it's a fun side of you!")
+		cw('s',"Non succede spesso, ma è un lato divertente di te!")
 	elseif cl == 1216 then
 		updateYuri('3','v')
-		cw('y',"That's...")
+		cw('y',"È che...")
 	elseif cl == 1217 then
-		cw('y',"There's no way you could think that...")
+		cw('y',"Non c'è modo che tu possa pensarlo...")
 	elseif cl == 1218 then
 		updateSayori('1','x')
-		cw('s',"You were right, though...")
+		cw('s',"Avevi ragione, comunque...")
 	elseif cl == 1219 then
-		cw('s',"I did something bad and now I have to accept the revolution.")
+		cw('s',"Ho fatto qualcosa di sbagliato e ora devo accettare la rivoluzione.")
 	elseif cl == 1220 then
 		updateYuri('3','h')
-		cw('y',"Retribution...")
+		cw('y',"Retribuzione...")
 	elseif cl == 1221 then
 		updateSayori('1','l')
-		cw('s',"That!")
+		cw('s',"Quella!")
 	elseif cl == 1222 then
-		cw('y',"Still, coming from you, Sayori...")
+		cw('y',"Comunque, venendo da te, Sayori...")
 	elseif cl == 1223 then
 		updateYuri('1','a')
-		cw('y',"I guess there's a little devil inside all of us, isn't there?")
+		cw('y',"Suppongo che ci sia un po' di diavolo dentro ognuno di noi, non è così?")
 	elseif cl == 1224 then
 		updateSayori('1','q')
 		cw('s',"Ehehe...")
 	elseif cl == 1225 then
-		cw('mc',"Don't let her fool you.")
+		cw('mc',"Non lasciate che vi inganni.")
 	elseif cl == 1226 then
-		cw('mc',"Sayori knows exactly what she's doing.")
+		cw('mc',"Sayori sa esattamente cosa sta facendo.")
 	elseif cl == 1227 then
-		cw('mc',"After all, she told you guys she was bringing me to the club before she even told me...")
+		cw('mc',"Dopotutto, vi ha detto che mi stava portando al club prima di dirmelo...")
 	elseif cl == 1228 then
 		updateSayori('1','h')
-		cw('s',"B-But...!")
+		cw('s',"B-Però...!")
 	elseif cl == 1229 then
-		cw('s',"You wouldn't have come if it weren't for the cupcakes...")
+		cw('s',"Non saresti venuto se non fosse stato per i cupcake...")
 	elseif cl == 1230 then
-		cw('s',"So I had to trick Natsuki into making them!")
+		cw('s',"Così ho dovuto ingannare Natsuki per farli fare!")
 	elseif cl == 1231 then
-		cw('mc',"Come on, give me more credit than that, Sayori.")
+		cw('mc',"Dai, dami più credito di così, Sayori.")
 	elseif cl == 1232 then
 		updateSayori('1','l')
 		cw('s',"Ehehe...")
@@ -213,389 +213,389 @@ function ch2script()
 		updateSayori('4','p')
 		cw('s',"Kyaa--!")
 	elseif cl == 1235 then
-		cw('bl',"Out of nowhere, something smacks Sayori in the face and tumbles onto the desk.")
+		cw('bl',"Di punto bianco, qualcosa colpisce Sayori in faccia e rotola sulla scrivania.")
 	elseif cl == 1236 then
 		updateSayori('4','j')
-		cw('s',"Ow...")
+		cw('s',"Ohi...")
 	elseif cl == 1237 then
-		cw('s',"What was--")
+		cw('s',"Cosa è stato--")
 	elseif cl == 1238 then
 		updateSayori('4','n')
-		cw('s',"Eh??")
+		cw('s',"Eh?")
 	elseif cl == 1239 then
-		cw('s',"A-A cookie!")
+		cw('s',"U-Una cookie!")
 	elseif cl == 1240 then
-		cw('bl',"Sure enough, it's a giant cookie wrapped in plastic.")
+		cw('bl',"Dopo tutto, è una cookie gigante avvolta nella plastica.")
 	elseif cl == 1241 then
-		cw('bl',"Sayori glances around.")
+		cw('bl',"Sayori guarda intorno.")
 	elseif cl == 1242 then
 		updateSayori('4','m')
-		cw('s',"I-Is this a miracle??")
+		cw('s',"È-È un miracolo??")
 	elseif cl == 1243 then
-		cw('s',"It's because I paid my restitution!")
+		cw('s',"È perché ho pagato la mia restituzione!")
 	elseif cl == 1244 then
-		cw('mc',"Retribution...")
+		cw('mc',"Retribuzione...")
 	elseif cl == 1245 then
 		updateSayori('4','n')
 		updateYuri('1','u')
-		cw('y',"Actually, that one almost worked...")
+		cw('y',"In realtà, quella quasi funzionava...")
 	elseif cl == 1246 then
 		updateNatsuki('3','z',-40)
 		cw('n',"Ahahaha!")
 	elseif cl == 1247 then
-		cw('n',"I was just gonna give it to you.")
+		cw('n',"Stavo per dartelo.")
 	elseif cl == 1248 then
 		updateNatsuki('3','d')
-		cw('n',"But then I heard you blab about the cupcakes.")
+		cw('n',"Ma poi ho sentito parlare dei cupcake.")
 	elseif cl == 1249 then
-		cw('n',"It was totally worth seeing your reaction, though. Ahaha!")
+		cw('n',"Era totalmente vale la pena vedere la tua reazione, però. Ahaha!")
 	elseif cl == 1250 then
 		updateSayori('4','m')
 		cw('s',"N-Natsuki!")
 	elseif cl == 1251 then
-		cw('s',"That's so nice of you!")
+		cw('s',"È stato così gentile da parte tua!")
 	elseif cl == 1252 then
 		updateSayori('4','s')
-		cw('s',"I'm so happy...")
+		cw('s',"Sono così felice...")
 	elseif cl == 1253 then
-		cw('bl',"Sayori hugs the cookie.")
+		cw('bl',"Sayori abbraccia la cookie.")
 	elseif cl == 1254 then
-		cw('mc',"Jeez, just eat it...")
+		cw('mc',"Che vuoi, mangiala pure...")
 	elseif cl == 1255 then
-		cw('bl',"Sayori rapidly tears open the wrapper and takes a big bite.")
+		cw('bl',"Sayori strappa rapidamente l'imballaggio e prende un grosso morso.")
 	elseif cl == 1256 then
 		updateSayori('4','q')
-		cw('s',"Sho good...")
+		cw('s',"Che buono...")
 	elseif cl == 1257 then
 		updateSayori('4','o')
 		cw('s',"Mmf--!")
 	elseif cl == 1258 then
-		cw('bl',"Sayori suddenly clasps her hands over her mouth.")
+		cw('bl',"Sayori si porta improvvisamente le mani davanti alla bocca.")
 	elseif cl == 1259 then
 		updateSayori('4','p')
-		cw('s',"I bit my tongue...")
+		cw('s',"Mi sono morsa la lingua...")
 	elseif cl == 1260 then
 		updateNatsuki('3','a')
 		cw('n',"Ehehe.")
 	elseif cl == 1261 then
-		cw('n',"You're going through a lot over just one cookie.")
+		cw('n',"State facendo molto per una sola cookie.")
 	elseif cl == 1262 then
-		cw('bl',"Natsuki takes a bite of her own cookie.")
+		cw('bl',"Natsuki prende un morso della sua cookie.")
 	elseif cl == 1263 then
 		updateSayori('1','c')
-		cw('s',"Ah, yours looks really good too, Natsuki!")
+		cw('s',"Ah, la tua sembra davvero buona anche, Natsuki!")
 	elseif cl == 1264 then
-		cw('s',"Can I try it?")
+		cw('s',"Posso provarla?")
 	elseif cl == 1265 then
 		updateNatsuki('4','e')
-		cw('n',"Jeez...")
+		cw('n',"Che vuoi...")
 	elseif cl == 1266 then
-		cw('n',"Beggars can't be choosers!")
+		cw('n',"I mendichi non possono scegliere!")
 	elseif cl == 1267 then
 		updateSayori('1','h')
-		cw('s',"But yours is chocolate...")
+		cw('s',"Ma la tua è al cioccolato...")
 	elseif cl == 1268 then
 		updateNatsuki('4','c')
-		cw('n',"Yeah, why do you think I gave you that one?")
+		cw('n',"Sì, perché pensi che ti ho dato quella lì?")
 	elseif cl == 1269 then
 		updateSayori('1','g')
-		cw('s',"Fine...")
+		cw('s',"Va bene...")
 	elseif cl == 1270 then
 		updateSayori('1','q')
-		cw('s',"Still, I'm really happy that you shared this one with me.")
+		cw('s',"Comunque, sono davvero felice che l'hai condivisa con me.")
 	elseif cl == 1271 then
 		cw('s',"Ehehe~")
 	elseif cl == 1272 then
 		updateSayori('1','q',15)
-		cw('bl',"Sayori gets out of her seat and goes behind Natsuki, then wraps her arms around her.")
+		cw('bl',"Sayori esce dalla sua sedia e va dietro Natsuki, poi le avvolge le braccia intorno.")
 	elseif cl == 1273 then
 		updateNatsuki('1','2c')
-		cw('n',"Ah-- Jeez...")
+		cw('n',"Ah-- Che vuoi...")
 	elseif cl == 1274 then
-		cw('n',"I get it, I get it.")
+		cw('n',"Lo capisco, lo capisco.")
 	elseif cl == 1275 then
-		cw('bl',"Cookie still in hand, Natsuki reaches up to nudge Sayori off of her.")
+		cw('bl',"Cookie ancora in mano, Natsuki si alza per spingere Sayori via da lei.")
 	elseif cl == 1276 then
 		updateSayori('1','m')
 		cw('s',"...Om.")
 	elseif cl == 1277 then
-		cw('bl',"Sayori suddenly leans down and takes a bite out of Natsuki's cookie.")
+		cw('bl',"Sayori si china improvvisamente e prende un morso dalla cookie di Natsuki.")
 	elseif cl == 1278 then
 		updateNatsuki('1','p')
-		cw('n',"H-Hey!!")
+		cw('n',"E-Ehi!!")
 	elseif cl == 1279 then
-		cw('n',"Did you seriously just do that?!")
+		cw('n',"Hai appena fatto sul serio?!")
 	elseif cl == 1280 then
 		updateSayori('1','q')
 		cw('s',"Uhuhuhu!")
 	elseif cl == 1281 then
 		hideSayori()
-		cw('bl',"Mouth full, Sayori trots away to safety.")
+		cw('bl',"Bocca piena, Sayori se ne va a passo di sicurezza.")
 	elseif cl == 1282 then
 		updateYuri('1','c')
-		cw('bl',"Yuri and I laugh as well.")
+		cw('bl',"Anche Yuri e io ridiamo.")
 	elseif cl == 1283 then
 		updateYuri('1','a')
 		updateNatsuki('1','w')
-		cw('n',"Jeez! You're such a kid sometimes!")
+		cw('n',"Che vuoi! A volte sei proprio una bambina!")
 	elseif cl == 1284 then
 		updateNatsuki('1','h')
-		cw('n',"Monika! Can you tell Sayori--")
+		cw('n',"Monika! Puoi dire a Sayori--")
 	elseif cl == 1285 then
 		updateNatsuki('1','c')
 		cw('n',"--Eh?")
 	elseif cl == 1286 then
-		cw('bl',"Natsuki glances around.")
+		cw('bl',"Natsuki guarda intorno.")
 	elseif cl == 1287 then
-		cw('bl',"Monika isn't in the clubroom.")
+		cw('bl',"Monika non è nella sala del club.")
 	elseif cl == 1288 then
 		updateNatsuki('4','q')
 		cw('n',"Ugh...")
 	elseif cl == 1289 then
-		cw('n',"Where's Monika, anyway?")
+		cw('n',"Dove è Monika, comunque?")
 	elseif cl == 1290 then
 		updateYuri('2','f')
-		cw('y',"Good question...")
+		cw('y',"Buona domanda...")
 	elseif cl == 1291 then
-		cw('y',"Have any of you heard anything about her being late today?")
+		cw('y',"Qualche di voi ha sentito qualcosa sul fatto che sia in ritardo oggi?")
 	elseif cl == 1292 then
 		updateSayori('1','b',80)
-		cw('s',"Not me...")
+		cw('s',"Non io...")
 	elseif cl == 1293 then
-		cw('mc',"Yeah, I haven't either.")
+		cw('mc',"Sì, nemmeno io.")
 	elseif cl == 1294 then
 		updateYuri('2','l')
 		cw('y',"Hm...")
 	elseif cl == 1295 then
-		cw('y',"That's a bit unusual.")
+		cw('y',"È un po' insolito.")
 	elseif cl == 1296 then
 		updateSayori('1','g')
-		cw('s',"I hope she's okay...")
+		cw('s',"Spero che stia bene...")
 	elseif cl == 1297 then
 		updateNatsuki('3','k')
-		cw('n',"Of course she's okay.")
+		cw('n',"Certo che sta bene.")
 	elseif cl == 1298 then
-		cw('n',"She probably just had something to do today.")
+		cw('n',"Probabilmente aveva solo qualcosa da fare oggi.")
 	elseif cl == 1299 then
 		updateNatsuki('3','t')
-		cw('n',"She's pretty popular, after all...")
+		cw('n',"È piuttosto popolare, dopotutto...")
 	elseif cl == 1300 then
 		updateSayori('4','m')
 		cw('s',"Eh?")
 	elseif cl == 1301 then
-		cw('s',"You don't think she...")
+		cw('s',"Non pensi che lei...")
 	elseif cl == 1302 then
-		cw('s',"She has a...!")
+		cw('s',"Ha un...!")
 	elseif cl == 1303 then
 		updateYuri('1','a')
-		cw('y',"Ahaha. I wouldn't be surprised.")
+		cw('y',"Ahaha. Non sarei sorpresa.")
 	elseif cl == 1304 then
-		cw('y',"She's probably more desirable than all of us combined.")
+		cw('y',"È probabilmente più desiderabile di tutti noi messi insieme.")
 	elseif cl == 1305 then
 		updateSayori('1','r')
-		cw('s',"Ehehe, that's true...")
+		cw('s',"Ehehe, è vero...")
 	elseif cl == 1306 then
 		updateNatsuki('1','p')
-		cw('n',"Excuse me?!")
+		cw('n",'Per favore?!')
 	elseif cl == 1307 then
 		hideNatsuki()
 		hideSayori()
 		hideYuri()
-		cw('bl',"Suddenly, the door swings open.")
+		cw('bl',"Improvvisamente, la porta si apre violentemente.")
 	elseif cl == 1308 then
 		updateMonika('1','g',-60)
-		cw('m',"Sorry! I'm super sorry!")
+		cw('m',"Scusate! Sono super scusata!")
 	elseif cl == 1309 then
-		cw('mc',"Ah, there you are...")
+		cw('mc',"Ah, eccoti...")
 	elseif cl == 1310 then
-		cw('m',"I didn't mean to be late...")
+		cw('m',"Non volevo essere in ritardo...")
 	elseif cl == 1311 then
-		cw('m',"I hope you guys weren't worried or anything!")
+		cw('m',"Spero che non vi preoccupiate o niente!")
 	elseif cl == 1312 then
 		updateSayori('4','n',30)
-		cw('s',"Eh??")
+		cw('s',"Eh?")
 	elseif cl == 1313 then
-		cw('s',"Monika chose the club over her boyfriend after all!")
+		cw('s',"Monika ha scelto il club sul suo fidanzato dopo tutto!")
 	elseif cl == 1314 then
-		cw('s',"You're so strong-willed!")
+		cw('s',"Sei così volitiva!")
 	elseif cl == 1315 then
 		updateMonika('1','l')
-		cw('m',"B-Boyfriend...?")
+		cw('m',"F-Fidanzato...?")
 	elseif cl == 1316 then
-		cw('m',"What on Earth are you talking about?")
+		cw('m',"Di cosa state parlando?")
 	elseif cl == 1317 then
-		cw('bl',"Monika quizzically glances at me.")
+		cw('bl',"Monika mi guarda con curiosità.")
 	elseif cl == 1318 then
-		cw('mc',"Ah, never mind that...")
+		cw('mc',"Ah, non importa...")
 	elseif cl == 1319 then
-		cw('mc',"What held you up, anyway?")
+		cw('mc',"Cosa ti ha trattenuta, comunque?")
 	elseif cl == 1320 then
 		updateMonika('1','e')
 		cw('m',"Ah...")
 	elseif cl == 1321 then
-		cw('m',"Well, my last period today was study hall.")
+		cw('m',"Bene, la mia ultima ora oggi era studio libero.")
 	elseif cl == 1322 then
-		cw('m',"To be honest, I kind of just lost track of time...")
+		cw('m',"Per essere onesta, ho perso un po' il senso del tempo...")
 	elseif cl == 1323 then
 		cw('m',"Ahaha...")
 	elseif cl == 1324 then
 		updateNatsuki('2','c',120)
-		cw('n',"That makes no sense, though.")
+		cw('n',"Non ha senso, però.")
 	elseif cl == 1325 then
-		cw('n',"You would have heard the bell ring, at least.")
+		cw('n',"Avresti sentito il campanaccio, almeno.")
 	elseif cl == 1326 then
 		updateMonika('1','m')
-		cw('m',"I must not have heard it, since I was practicing piano...")
+		cw('m',"Devo non averlo sentito, visto che stavo praticando il pianoforte...")
 	elseif cl == 1327 then
 		updateYuri('1','e',220)
-		cw('y',"Piano...?")
+		cw('y',"Pianoforte...?")
 	elseif cl == 1328 then
-		cw('y',"I wasn't aware you played music as well, Monika.")
+		cw('y',"Non sapevo che suonassi anche musica, Monika.")
 	elseif cl == 1329 then
 		updateMonika('1','l')
-		cw('m',"Ah, I don't, really...!")
+		cw('m',"Ah, non proprio...!")
 	elseif cl == 1330 then
-		cw('m',"I kind of just started recently.")
+		cw('m',"Ho iniziato di recente.")
 	elseif cl == 1331 then
 		updateMonika('1','m')
-		cw('m',"I've always wanted to learn piano.")
+		cw('m',"Ho sempre voluto imparare il pianoforte.")
 	elseif cl == 1332 then
 		updateSayori('4','x')
-		cw('s',"That's so cool!")
+		cw('s',"È così cool!")
 	elseif cl == 1333 then
-		cw('s',"You should play something for us, Monika!")
+		cw('s',"Dovresti suonare qualcosa per noi, Monika!")
 	elseif cl == 1334 then
-		cw('m',"That's...")
+		cw('m',"È che...")
 	elseif cl == 1335 then
-		cw('bl',"Monika looks at me.")
+		cw('bl',"Monika mi guarda.")
 	elseif cl == 1336 then
 		updateMonika('1','a')
-		cw('m',"Maybe once I get a little bit better, I will.")
+		cw('m',"Forse quando sarò un po' migliore, lo farò.")
 	elseif cl == 1337 then
 		updateSayori('4','q')
 		cw('s',"Yay~!")
 	elseif cl == 1338 then
-		cw('mc',"That sounds cool.")
+		cw('mc',"Suona cool.")
 	elseif cl == 1339 then
-		cw('mc',"I'd also look forward to it.")
+		cw('mc',"Lo aspetterei anche io.")
 	elseif cl == 1340 then
 		updateMonika('1','b')
-		cw('m',"Is that so?")
+		cw('m',"È così?")
 	elseif cl == 1341 then
-		cw('m',"In that case...")
+		cw('m',"In tal caso...")
 	elseif cl == 1342 then
-		cw('m',"I won't let you down, "..player..".")
+		cw('m',"Non vi deluderò, "..player..".")
 	elseif cl == 1343 then
 		hideNatsuki()
 		hideSayori()
 		hideYuri()
 		updateMonika('5a','',80)
-		cw('bl',"Monika smiles sweetly.")
+		cw('bl',"Monika sorride dolcemente.")
 	elseif cl == 1344 then
 		cw('mc',"Ah...")
 	elseif cl == 1345 then
-		cw('mc',"I didn't mean any pressure or anything like that!")
+		cw('mc',"Non intendevo pressione o niente di simile!")
 	elseif cl == 1346 then
 		updateMonika('1','a')
-		cw('m',"Ahaha, don't worry.")
+		cw('m',"Ahaha, non preoccuparti.")
 	elseif cl == 1347 then
-		cw('m',"I've been practicing a whole lot recently.")
+		cw('m',"Ho praticato un sacco di recente.")
 	elseif cl == 1348 then
-		cw('m',"And I'd really love the chance to share once I'm ready.")
+		cw('m',"E mi piacerebbe davvero l'opportunità di condividere quando sarò pronta.")
 	elseif cl == 1349 then
-		cw('mc',"I see...")
+		cw('mc',"Vedo...")
 	elseif cl == 1350 then
-		cw('mc',"In that case, best of luck.")
+		cw('mc',"In tal caso, buona fortuna.")
 	elseif cl == 1351 then
 		updateMonika('1','j')
-		cw('m',"Thanks~!")
+		cw('m',"Grazie~!")
 	elseif cl == 1352 then
 		updateMonika('1','a')
-		cw('m',"So, I didn't miss anything, did I?")
+		cw('m',"Quindi, non mi sono persa niente, vero?")
 	elseif cl == 1353 then
-		cw('mc',"Not...not really.")
+		cw('mc',"Non...non proprio.")
 	elseif cl == 1354 then
 		hideMonika()
-		cw('bl',"I choose to leave out Sayori's mischievous escapade.")
+		cw('bl',"Scegliere di lasciare fuori l'escursione giocosa di Sayori.")
 	elseif cl == 1355 then
-		cw('bl',"I'm sure Natsuki will end up complaining to her, anyway.")
+		cw('bl',"Sono sicuro che Natsuki finirà per lamentarsi con lei, comunque.")
 	elseif cl == 1356 then
-		cw('bl',"It looks like everyone has already settled down.")
+		cw('bl',"Sembra che tutti si siano già sistemati.")
 	elseif cl == 1357 then
-		cw('bl',"Sayori somehow already finished her entire cookie.")
+		cw('bl',"Sayori ha già finito tutta la sua cookie in qualche modo.")
 	elseif cl == 1358 then
-		cw('bl',"Yuri is back to her book, and Natsuki disappeared into the closet.")
+		cw('bl',"Yuri è tornata al suo libro, e Natsuki è scomparsa nell'armadio.")
 	end
 	
 	if cl == 1638 then
 		bgUpdate('club')
 		audioUpdate('3')
 		updateMonika('5a','',80)
-		cw('m',"Okay, everyone!")
+		cw('m',"Ok, tutti!")
 	elseif cl == 1639 then
-		cw('m',"We're all done reading each other's poems, right?")
+		cw('m',"Abbiamo finito di leggere le poesie degli altri, giusto?")
 	elseif cl == 1640 then
-		cw('m',"I have something extra planned today, so if everyone could come sit at the front of the room...")
+		cw('m',"Ho qualcosa di extra pianificato per oggi, quindi se tutti potreste venire a sedersi davanti alla sala...")
 	elseif cl == 1641 then
 		updateNatsuki('3','c',-40)
-		cw('n',"Is this about the festival?")
+		cw('n',"È per il festival?")
 	elseif cl == 1642 then
 		updateMonika('1','j')
-		cw('m',"Well, sort of~")
+		cw('m',"Bene, più o meno~")
 	elseif cl == 1643 then
 		updateMonika('1','a')
 		updateNatsuki('1','m')
-		cw('n',"Ugh. Do we really have to do something for the festival?")
+		cw('n',"Ugh. Dobbiamo davvero fare qualcosa per il festival?")
 	elseif cl == 1644 then
-		cw('n',"It's not like we can put together anything good in just a few days.")
+		cw('n',"Non è come se potessimo mettere insieme qualcosa di buono in pochi giorni.")
 	elseif cl == 1645 then
-		cw('n',"We'll just end up embarrassing ourselves instead of getting any new members.")
+		cw('n',"Finiremo solo per umiliarci invece di ottenere nuovi membri.")
 	elseif cl == 1646 then
 		updateYuri('2','g',200)
-		cw('y',"That's a concern of mine as well.")
+		cw('y',"È una preoccupazione anche mia.")
 	elseif cl == 1647 then
-		cw('y',"I don't really do well with last-minute preparations...")
+		cw('y',"Non mi trovo bene con le preparazioni dell'ultimo minuto...")
 	elseif cl == 1648 then
 		updateMonika('1','b')
-		cw('m',"Don't worry so much!")
+		cw('m',"Non preoccupatevi così tanto!")
 	elseif cl == 1649 then
-		cw('m',"We're going to keep it simple, okay?")
+		cw('m',"Lo manterremo semplice, ok?")
 	elseif cl == 1650 then
 		updateMonika('1','a')
-		cw('m',"We won't need much more than a few decorations.")
+		cw('m',"Non avremo bisogno di molto più che di alcune decorazioni.")
 	elseif cl == 1651 then
-		cw('m',"Sayori has been working on posters, and I've designed some pamphlets we can give out during the event.")
+		cw('m',"Sayori ha lavorato su poster, e ho progettato alcuni volantini che possiamo distribuire durante l'evento.")
 	elseif cl == 1652 then
 		updateNatsuki('3','c')
-		cw('n',"Okay, that's great and all...")
+		cw('n',"Ok, è tutto grande...")
 	elseif cl == 1653 then
-		cw('n',"But that doesn't tell us what we're actually going to be doing for the event.")
+		cw('n',"Ma non ci dice cosa faremo effettivamente per l'evento.")
 	elseif cl == 1654 then
 		updateMonika('1','d')
-		cw('m',"Ah, sorry! I thought you heard about it already.")
+		cw('m',"Ah, scusate! Pensavo che lo aveste già sentito.")
 	elseif cl == 1655 then
 		updateMonika('1','b')
-		cw('m',"We're going to be performing!")
+		cw('m',"Staremo facendo un'esibizione!")
 	elseif cl == 1656 then
 		updateNatsuki('3','h')
-		cw('n',"Performing?")
+		cw('n',"Un'esibizione?")
 	elseif cl == 1657 then
 		updateYuri('3','n')
 		cw('y',"P...")
 	elseif cl == 1658 then
 		updateYuri('3','o')
-		cw('y',"Um, Monika...")
+		cw('y',"Ehm, Monika...")
 	elseif cl == 1659 then
 		updateMonika('1','k')
-		cw('m',"Yeah! We're going to be having a poetry performance.")
+		cw('m',"Sì! Staremo facendo un'esibizione di poesia.")
 	elseif cl == 1660 then
 		updateMonika('1','b')
-		cw('m',"Each of us are going to choose a poem to recite during the event.")
+		cw('m',"Ognuno di noi sceglierà una poesia da recitare durante l'evento.")
 	elseif cl == 1661 then
-		cw('m',"But the cool part is, we're also going to let anyone else come up and recite poems too!")
+		cw('m',"Ma la parte cool è che lasceremo anche altri venire su a recitare poesie!")
 	elseif cl == 1662 then
 		updateMonika('1','a')
-		cw('m',"Sayori's putting it on all the posters in case anyone wants to prepare ahead of time.")
+		cw('m',"Sayori lo sta mettendo su tutti i poster in caso qualcuno voglia prepararsi in anticipo.")
 	elseif cl == 1663 then
 		updateYuri('3','o',220)
 		updateMonika('1','a',120)
@@ -603,103 +603,103 @@ function ch2script()
 		updateSayori('4','q',-60)
 		cw('s',"Ehehe~")
 	elseif cl == 1664 then
-		cw('bl',"Sayori, who's been coloring a poster, holds it up for us to see.")
+		cw('bl',"Sayori, che stava colorando un poster, lo alza per mostrarlo.")
 	elseif cl == 1665 then
 		updateNatsuki('4','w')
-		cw('n',"Are you kidding me, Monika?")
+		cw('n',"Stai scherzando, Monika?")
 	elseif cl == 1666 then
-		cw('n',"You didn't...you didn't already start putting those posters up, did you?")
+		cw('n',"Non hai...non hai già iniziato a mettere su quei poster, vero?")
 	elseif cl == 1667 then
 		updateMonika('1','d')
-		cw('m',"Eh? Well, I did...")
+		cw('m',"Eh? Bene, l'ho fatto...")
 	elseif cl == 1668 then
-		cw('m',"Do you really think it's that bad of an idea...?")
+		cw('m',"Pensi davvero che sia un'idea così cattiva...?")
 	elseif cl == 1669 then
 		updateNatsuki('1','s')
-		cw('n',"Well, no.")
+		cw('n',"Bene, no.")
 	elseif cl == 1670 then
-		cw('n',"It's not a bad idea.")
+		cw('n',"Non è un'idea cattiva.")
 	elseif cl == 1671 then
 		updateNatsuki('1','w')
-		cw('n',"But I didn't sign up for this, you know!")
+		cw('n',"Ma non mi sono iscritta per questo, lo sai!")
 	elseif cl == 1672 then
 		updateNatsuki('1','x')
-		cw('n',"There is no way I'm going to be performing in front of a group of people like that!")
+		cw('n',"Non c'è modo che io stia esibendo davanti a un gruppo di persone così!")
 	elseif cl == 1673 then
 		updateYuri('3','r')
-		cw('y',"I...I agree with Natsuki!")
+		cw('y',"Io...io sono d'accordo con Natsuki!")
 	elseif cl == 1674 then
 		updateYuri('3','w')
-		cw('y',"I could never...in my life...do something like that...")
+		cw('y',"Non potrei mai...nella mia vita...fare qualcosa di simile...")
 	elseif cl == 1675 then
-		cw('bl',"Imagining it, Yuri shakes her head in fear.")
+		cw('bl',"Immaginandolo, Yuri scuote la testa con paura.")
 	elseif cl == 1676 then
 		updateSayori('1','g')
-		cw('s',"Guys...")
+		cw('s',"Ragazzi...")
 	elseif cl == 1677 then
 		updateMonika('1','g')
 		cw('m',"No, Sayori...")
 	elseif cl == 1678 then
-		cw('m',"I understand where they're coming from.")
+		cw('m',"Capisco da dove vengono.")
 	elseif cl == 1679 then
-		cw('m',"Remember that Natsuki and Yuri have never shared their poems with anyone until just a couple days ago...")
+		cw('m',"Ricordate che Natsuki e Yuri non hanno mai condiviso le loro poesie con nessuno fino a pochi giorni fa...")
 	elseif cl == 1680 then
-		cw('m',"It's a lot to ask for them to recite their poems out loud to a whole room full of people.")
+		cw('m',"È molto chiedere che recitino le loro poesie ad alta voce davanti a una sala piena di persone.")
 	elseif cl == 1681 then
 		updateMonika('1','r')
-		cw('m',"I guess I kind of overlooked that.")
+		cw('m',"Suppongo di averlo trascurato un po'.")
 	elseif cl == 1682 then
-		cw('m',"So, I'm sorry.")
+		cw('m',"Quindi, mi scuso.")
 	elseif cl == 1683 then
 		updateNatsuki('5','g')
 		cw('n',"...")
 	elseif cl == 1684 then
 		updateMonika('1','i')
-		cw('m',"...But!")
+		cw('m',"...Ma!")
 	elseif cl == 1685 then
-		cw('m',"I still think we should give it our best!")
+		cw('m',"Penso ancora che dovremmo dare il nostro meglio!")
 	elseif cl == 1686 then
 		updateMonika('1','d')
-		cw('m',"We're the only ones responsible for the fate of this club.")
+		cw('m',"Siamo gli unici responsabili del destino di questo club.")
 	elseif cl == 1687 then
-		cw('m',"If we start the event and each put on a good performance...")
+		cw('m',"Se iniziamo l'evento e ognuno mette in scena una buona esibizione...")
 	elseif cl == 1688 then
 		updateMonika('3','a')
-		cw('m',"Then it will inspire others to do the same!")
+		cw('m',"Allora ispirerà gli altri a fare lo stesso!")
 	elseif cl == 1689 then
-		cw('m',"And the more people who perform, the better we'll be able to show everyone what literature is all about!")
+		cw('m',"E più persone si esibiscono, meglio saremo in grado di mostrare a tutti di cosa si tratta la letteratura!")
 	elseif cl == 1690 then
 		updateSayori('1','r')
-		cw('s',"Yeah!")
+		cw('s',"Sì!")
 	elseif cl == 1691 then
 		updateSayori('1','x')
-		cw('s',"It's about expressing your feelings...")
+		cw('s',"Si tratta di esprimere i tuoi sentimenti...")
 	elseif cl == 1692 then
-		cw('s',"Being intimate with yourself...")
+		cw('s',"Essere intimo con te stesso...")
 	elseif cl == 1693 then
-		cw('s',"Finding new horizons...")
+		cw('s',"Trovare nuovi orizzonti...")
 	elseif cl == 1694 then
-		cw('s',"And having fun!")
+		cw('s',"E divertirsi!")
 	elseif cl == 1695 then
 		updateMonika('4','b')
-		cw('m',"That's right!")
+		cw('m',"Esatto!")
 	elseif cl == 1696 then
-		cw('m',"And it's those reasons that we're all in this club today.")
+		cw('m',"E sono quelle ragioni che ci fanno essere in questo club oggi.")
 	elseif cl == 1697 then
 		updateMonika('4','e')
-		cw('m',"Don't you want to share that with others?")
+		cw('m',"Non volete condividere con gli altri?")
 	elseif cl == 1698 then
-		cw('m',"To inspire them to find the same feelings that brought you here in the first place?")
+		cw('m',"Ispirarli a trovare gli stessi sentimenti che vi hanno portato qui in primo luogo?")
 	elseif cl == 1699 then
 		updateMonika('1','e')
-		cw('m',"I know you do.")
+		cw('m',"Lo so che lo fate.")
 	elseif cl == 1700 then
-		cw('m',"I know we all do.")
+		cw('m',"So che tutti lo facciamo.")
 	elseif cl == 1701 then
 		updateMonika('1','b')
-		cw('m',"And if all it takes is standing in front of the room for two minutes and reciting a poem...")
+		cw('m',"E se basta stare davanti alla sala per due minuti e recitare una poesia...")
 	elseif cl == 1702 then
-		cw('m',"...Then I know you can do it!")
+		cw('m',"...Allora so che potete farla!")
 	elseif cl == 1703 then
 		updateMonika('1','a')
 		updateNatsuki('5','s')
@@ -709,236 +709,236 @@ function ch2script()
 		cw('y',"...")
 	elseif cl == 1705 then
 		updateSayori('1','g')
-		cw('bl',"Natsuki and Yuri remain silent.")
+		cw('bl',"Natsuki e Yuri restano in silenzio.")
 	elseif cl == 1706 then
-		cw('bl',"Sayori looks worried.")
+		cw('bl',"Sayori sembra preoccupata.")
 	elseif cl == 1707 then
-		cw('bl',"I guess that leaves me no choice...")
+		cw('bl',"Suppongo che non mi resti altra scelta...")
 	elseif cl == 1708 then
-		cw('mc',"I agree...")
+		cw('mc',"Sono d'accordo...")
 	elseif cl == 1709 then
-		cw('mc',"I don't think it's too much to ask.")
+		cw('mc',"Non penso sia troppo da chiedere.")
 	elseif cl == 1710 then
-		cw('mc',"I think that Sayori and Monika have been trying really hard to get new members.")
+		cw('mc',"Penso che Sayori e Monika stiano cercando davvero di ottenere nuovi membri.")
 	elseif cl == 1711 then
-		cw('mc',"The least we can do is help them out a little bit.")
+		cw('mc',"Il minimo che possiamo fare è aiutarle un po'.")
 	elseif cl == 1712 then
 		updateNatsuki('5','h')
-		cw('n',"Well...maybe, but...")
+		cw('n',"Bene...forse, ma...")
 	elseif cl == 1713 then
 		cw('n',"...")
 	elseif cl == 1714 then
-		cw('bl',"It looks like Natsuki doesn't have any arguments left.")
+		cw('bl',"Sembra che Natsuki non abbia più argomenti.")
 	elseif cl == 1715 then
 		cw('n',"Uu...")
 	elseif cl == 1716 then
 		updateNatsuki('1','q')
-		cw('n',"...Okay, fine!")
+		cw('n',"...Ok, va bene!")
 	elseif cl == 1717 then
-		cw('n',"I guess I'll just have to get it over with.")
+		cw('n',"Suppongo che dovrò farla finita.")
 	elseif cl == 1718 then
 		updateSayori('4','r')
-		cw('s',"Alright~!")
+		cw('s',"Bene~!")
 	elseif cl == 1719 then
 		updateSayori('4','a')
 		updateMonika('1','e')
-		cw('m',"Phew...")
+		cw('m',"Puf...")
 	elseif cl == 1720 then
-		cw('m',"Thanks, Natsuki.")
+		cw('m',"Grazie, Natsuki.")
 	elseif cl == 1721 then
-		cw('m',"What about you, Yuri...?")
+		cw('m',"Cosa ne dici tu, Yuri...?")
 	elseif cl == 1722 then
 		cw('y',"...")
 	elseif cl == 1723 then
-		cw('bl',"Yuri dejectedly glances around at everyone else's expectant faces.")
+		cw('bl',"Yuri guarda intorno con tristezza alle facce espianti degli altri.")
 	elseif cl == 1724 then
 		cw('y',"Sigh...")
 	elseif cl == 1725 then
-		cw('y',"I-I guess I don't really have a choice...")
+		cw('y',"I-Non credo di avere davvero una scelta...")
 	elseif cl == 1726 then
 		updateSayori('4','r')
-		cw('s',"Ahaha! That's everyone!")
+		cw('s',"Ahaha! È tutti!")
 	elseif cl == 1727 then
-		cw('s',"You're the best, Yuri~")
+		cw('s',"Sei la migliore, Yuri~")
 	elseif cl == 1728 then
 		updateSayori('4','a')
-		cw('y',"This club is seriously going to be the death of me...")
+		cw('y',"Questo club sarà seriamente la mia morte...")
 	elseif cl == 1729 then
 		updateMonika('1','l')
-		cw('m',"Oh gosh...")
+		cw('m',"Oh cielo...")
 	elseif cl == 1730 then
 		updateMonika('1','n')
-		cw('m',"You'll be fine, Yuri.")
+		cw('m',"Starai bene, Yuri.")
 	elseif cl == 1731 then
-		cw('m',"But anyway...")
+		cw('m',"Ma comunque...")
 	elseif cl == 1732 then
 		updateMonika('1','b')
-		cw('m',"Let's move onto the main event!")
+		cw('m',"Passiamo all'evento principale!")
 	elseif cl == 1733 then
-		cw('m',"I want each of you to choose a poem of yours.")
+		cw('m',"Voglio che ognuno di voi scelga una delle sue poesie.")
 	elseif cl == 1734 then
-		cw('m',"We're going to practice reciting them in front of each other.")
+		cw('m',"Praticheremo recitarle davanti agli altri.")
 	elseif cl == 1735 then
 		updateMonika('1','a')
 		updateNatsuki('1','p')
-		cw('n',"N-N-No way!!")
+		cw('n',"N-N-Non può essere!!")
 	elseif cl == 1736 then
 		updateYuri('3','n')
 		cw('y',"Monika...!")
 	elseif cl == 1737 then
-		cw('y',"This is too sudden...!")
+		cw('y',"È troppo improvviso...!")
 	elseif cl == 1738 then
 		updateMonika('2','a')
-		cw('m',"Well, if you can't recite your poem in front of the club, how do you expect to do it in front of strangers?")
+		cw('m',"Bene, se non puoi recitare la tua poesia davanti al club, come ti aspetti di farlo davanti a estranei?")
 	elseif cl == 1739 then
 		updateYuri('4','c2')
 		updateNatsuki('1','o')
 		cw('y',"Oh no...")
 	elseif cl == 1740 then
 		updateMonika('2','a')
-		cw('m',"Don't worry.")
+		cw('m',"Non preoccupatevi.")
 	elseif cl == 1741 then
-		cw('m',"I'll start off to help everyone feel a little more comfortable.")
+		cw('m',"Inizierò io per aiutare tutti a sentirsi un po' più a proprio agio.")
 	elseif cl == 1742 then
 		updateSayori('1','r')
-		cw('s',"Can I go next??")
+		cw('s',"Posso andare dopo??")
 	elseif cl == 1743 then
-		cw('m',"Ahaha. Of course.")
+		cw('m',"Ahaha. Certo.")
 	elseif cl == 1744 then
 		updateMonika('2','d')
-		cw('m',"Now, let's see...")
+		cw('m',"Ora, vediamo...")
 	elseif cl == 1745 then
-		cw('bl',"Monika flips through her notebook to the specific poem she has in mind for herself.")
+		cw('bl',"Monika sfoglia il suo quaderno fino alla poesia specifica che ha in mente per sé.")
 	elseif cl == 1746 then
-		cw('bl',"She then stands behind the podium.")
+		cw('bl',"Poi si mette dietro il podio.")
 	elseif cl == 1747 then
 		hideSayori()
 		hideNatsuki()
 		hideYuri()
 		updateMonika('1','a',80)
-		cw('m',"The title of this poem is The Way They Fly.")
+		cw('m',"Il titolo di questa poesia è The Way They Fly.")
 	elseif cl == 1748 then
 		updateMonika('1','r')
 		cw('m',"Ahem...")
 	elseif cl == 1749 then
 		updateMonika('1','a')
-		cw('bl',"Monika begins reciting her poem.")
+		cw('bl',"Monika inizia a recitare la sua poesia.")
 	elseif cl == 1750 then
-		cw('bl',"Her clear, confident voice fills the room.")
+		cw('bl',"La sua voce chiara e sicura riempie la sala.")
 	elseif cl == 1751 then
-		cw('bl',"More than that, her inflection is pristine.")
+		cw('bl',"Più di tutto, la sua inflessione è immacolata.")
 	elseif cl == 1752 then
-		cw('bl',"She knows exactly how to apply emotion behind each line she recites, bringing the words to life.")
+		cw('bl',"Sa esattamente come applicare l'emozione dietro ogni riga che recita, dando vita alle parole.")
 	elseif cl == 1753 then
-		cw('bl',"Is this something she's done before, or is she simply a natural?")
+		cw('bl',"È qualcosa che ha fatto prima, o è semplicemente una talentuosa?")
 	elseif cl == 1754 then
-		cw('bl',"I glance around me.")
+		cw('bl',"Guardo intorno a me.")
 	elseif cl == 1755 then
-		cw('bl',"Everyone has their eyes on Monika.")
+		cw('bl',"Tutti hanno gli occhi su Monika.")
 	elseif cl == 1756 then
-		cw('bl',"Sayori looks amazed.")
+		cw('bl',"Sayori sembra stupita.")
 	elseif cl == 1757 then
-		cw('bl',"Yuri has an intense expression on her face that I don't understand.")
+		cw('bl',"Yuri ha un'espressione intensa sul viso che non capisco.")
 	elseif cl == 1758 then
 		updateMonika('1','j')
-		cw('bl',"Finally, Monika finishes the recitation.")
+		cw('bl',"Finalmente, Monika finisce la recitazione.")
 	elseif cl == 1759 then
-		cw('bl',"The four of us applaud.")
+		cw('bl',"I quattro di noi applaudono.")
 	elseif cl == 1760 then
-		cw('bl',"Monika takes a breath and smiles.")
+		cw('bl',"Monika prende un respiro e sorride.")
 	elseif cl == 1761 then
 		updateMonika('1','a')
 		updateSayori('4','m',200)
-		cw('s',"That...that was so good, Monika!")
+		cw('s',"Quella...quella è stata così buona, Monika!")
 	elseif cl == 1762 then
 		updateMonika('1','j')
-		cw('m',"Ahaha, thank you very much.")
+		cw('m',"Ahaha, grazie molto.")
 	elseif cl == 1763 then
 		updateMonika('1','a')
-		cw('m',"I was just hoping to set a good example.")
+		cw('m',"Stavo solo sperando di dare un buon esempio.")
 	elseif cl == 1764 then
-		cw('m',"Are you ready to go next, Sayori?")
+		cw('m',"Sei pronta a andare dopo, Sayori?")
 	elseif cl == 1765 then
 		updateYuri('2','r',-40)
-		cw('y',"I...I'll go next!!")
+		cw('y',"Io...io andrò dopo!!")
 	elseif cl == 1766 then
 		updateSayori('1','n')
-		cw('s',"Uwah! Yuri's fired up all of a sudden!")
+		cw('s',"Uwah! Yuri è tutta eccitata di colpo!")
 	elseif cl == 1767 then
-		cw('bl',"Yuri clutches a sheet of paper between her hands and stands up.")
+		cw('bl',"Yuri stringe un foglio di carta tra le mani e si alza.")
 	elseif cl == 1768 then
-		cw('bl',"Keeping her head down, she walks quickly over to the podium.")
+		cw('bl',"Tenendo la testa bassa, cammina rapidamente verso il podio.")
 	elseif cl == 1769 then
 		hideMonika()
 		hideSayori()
 		updateYuri('2','v',80)
-		cw('y',"This poem is called--!")
+		cw('y',"Questa poesia si chiama--!")
 	elseif cl == 1770 then
-		cw('bl',"Yuri anxiously glances at each of us.")
+		cw('bl',"Yuri guarda ansiosamente ognuno di noi.")
 	elseif cl == 1771 then
-		cw('s',"You can do it, Yuri...")
+		cw('s',"Puoi farla, Yuri...")
 	elseif cl == 1772 then
-		cw('y',"It...It's called...Afterimage of a Crimson Eye.")
+		cw('y',"È...si chiama...Afterimage of a Crimson Eye.")
 	elseif cl == 1773 then
-		cw('bl',"Yuri's voice shakes as she starts reading the poem.")
+		cw('bl',"La voce di Yuri trema mentre inizia a leggere la poesia.")
 	elseif cl == 1774 then
-		cw('bl',"Just a moment ago, she practically refused to do this.")
+		cw('bl',"Solo un momento fa, praticamente rifiutava di farlo.")
 	elseif cl == 1775 then
-		cw('bl',"Why is she suddenly putting in so much effort?")
+		cw('bl',"Perché sta improvvisamente mettendo così tanto impegno?")
 	elseif cl == 1776 then
 		updateYuri('2','l')
-		cw('bl',"As Yuri gets past the first couple of lines, her voice changes.")
+		cw('bl',"Mentre Yuri passa le prime righe, la sua voce cambia.")
 	elseif cl == 1777 then
-		cw('bl',"It's almost like what happens when Yuri gets absorbed into her books.")
+		cw('bl',"È quasi come quello che succede quando Yuri si assorbe nei suoi libri.")
 	elseif cl == 1778 then
-		cw('bl',"Her quivering words transform into the sharp syllables of a fierce and confident woman.")
+		cw('bl',"Le sue parole tremolanti si trasformano nelle sillabe taglienti di una donna fiera e sicura.")
 	elseif cl == 1779 then
-		cw('bl',"The poem is full of twists and turns in its structure that she enunciates with perfect timing.")
+		cw('bl',"La poesia è piena di svolte e giri nella sua struttura che ella enuncia con tempismo perfetto.")
 	elseif cl == 1780 then
-		cw('bl',"This must be a rare glimpse into the whirling fire Yuri keeps concealed inside her head...!")
+		cw('bl',"Deve essere una rara occhiata nel fuoco vorticoso che Yuri tiene nascosto nella sua testa...!")
 	elseif cl == 1781 then
 		updateYuri('2','t')
-		cw('bl',"Suddenly, she's finished.")
+		cw('bl',"Improvvisamente, è finita.")
 	elseif cl == 1782 then
-		cw('bl',"Everyone is stunned.")
+		cw('bl',"Tutti sono sbalorditi.")
 	elseif cl == 1783 then
-		cw('bl',"Yuri snaps back into reality and glances around her, as if she bewildered even herself.")
+		cw('bl',"Yuri torna alla realtà e guarda intorno a sé, come se si fosse stupita anche lei.")
 	elseif cl == 1784 then
 		updateYuri('3','o')
-		cw('y',"I...")
+		cw('y',"Io...")
 	elseif cl == 1785 then
-		cw('bl',"...It's up to me to save this situation.")
+		cw('bl',"...È su di me salvare questa situazione.")
 	elseif cl == 1786 then
-		cw('bl',"I'm the first to start applauding.")
+		cw('bl',"Sono il primo a iniziare ad applaudare.")
 	elseif cl == 1787 then
-		cw('bl',"Everyone joins me afterward, and we give Yuri the recognition she deserves.")
+		cw('bl',"Tutti mi seguono dopo, e diamo a Yuri il riconoscimento che merita.")
 	elseif cl == 1788 then
-		cw('bl',"It's not that we didn't want to applaud for her.")
+		cw('bl',"Non è che non volevamo applaudire per lei.")
 	elseif cl == 1789 then
-		cw('bl',"But we were caught so off-guard that we must have forgotten.")
+		cw('bl',"Ma siamo stati così colti di sorpresa che dobbiamo averlo dimenticato.")
 	elseif cl == 1790 then
-		cw('bl',"As we applaud, Yuri holds the poem to her chest and rushes back into her seat.")
+		cw('bl',"Mentre applaudiamo, Yuri tiene la poesia al petto e corre indietro al suo posto.")
 	elseif cl == 1791 then
 		hideYuri()
 		updateMonika('1','a',80)
-		cw('m',"Yuri, that was really good.")
+		cw('m',"Yuri, è stata davvero buona.")
 	elseif cl == 1792 then
-		cw('m',"Thank you for sharing.")
+		cw('m',"Grazie per aver condiviso.")
 	elseif cl == 1793 then
 		cw('y',"...")
 	elseif cl == 1794 then
-		cw('bl',"Looks like Yuri is down for the count...")
+		cw('bl',"Sembra che Yuri sia fuori dal gioco...")
 	elseif cl == 1795 then
 		updateSayori('1','q',-40)
 		cw('s',"Okaay~")
 	elseif cl == 1796 then
-		cw('s',"I guess I'm next, then!")
+		cw('s',"Suppongo che io sia dopo, allora!")
 	elseif cl == 1797 then
-		cw('bl',"Sayori hops out of her chair and cheerfully walks to the podium.")
+		cw('bl',"Sayori salta fuori dalla sua sedia e cammina allegramente verso il podio.")
 	elseif cl == 1798 then
 		hideMonika()
 		updateSayori('1','x',80)
-		cw('s',"This one's called...My Meadow.")
+		cw('s',"Questa si chiama...My Meadow.")
 	elseif cl == 1799 then
 		cw('s',"Ah...")
 	elseif cl == 1800 then
@@ -946,7 +946,7 @@ function ch2script()
 		cw('s',"...Ahaha!")
 	elseif cl == 1801 then
 		updateSayori('4','s')
-		cw('s',"Sorry, I giggled...")
+		cw('s',"Scusa, ho ridacchiato...")
 	elseif cl == 1802 then
 		updateSayori('4','q')
 		cw('s',"Ehehe...")
@@ -954,373 +954,373 @@ function ch2script()
 		cw('mc',"Sayori...")
 	elseif cl == 1804 then
 		updateSayori('1','l')
-		cw('s',"It's a lot harder than I thought!")
+		cw('s',"È molto più difficile di quanto pensavo!")
 	elseif cl == 1805 then
-		cw('s',"How did you guys do it so easily?")
+		cw('s',"Come l'avete fatto così facilmente?")
 	elseif cl == 1806 then
 		updateMonika('3','a',-40)
 		updateSayori('1','b')
 		cw('m',"Ah...")
 	elseif cl == 1807 then
-		cw('m',"Try not to think of it like you're reciting to other people.")
+		cw('m',"Cerca di non pensare che stai recitando per altre persone.")
 	elseif cl == 1808 then
-		cw('m',"Imagine you're reciting it to yourself, like in front of a mirror, or in your own head.")
+		cw('m',"Immagina di recitarlo a te stesso, come davanti a uno specchio, o nella tua testa.")
 	elseif cl == 1809 then
-		cw('m',"It's your poem, so it'll come out the best that way.")
+		cw('m',"È la tua poesia, quindi uscirà al meglio così.")
 	elseif cl == 1810 then
 		updateSayori('1','i')
-		cw('s',"I see, I see...")
+		cw('s',"Vedo, vedo...")
 	elseif cl == 1811 then
-		cw('s',"Okay, then...")
+		cw('s',"Ok, allora...")
 	elseif cl == 1812 then
 		hideMonika()
 		updateSayori('1','c')
-		cw('bl',"Sayori begins her poem.")
+		cw('bl',"Sayori inizia la sua poesia.")
 	elseif cl == 1813 then
-		cw('bl',"Somehow, it feels like her soft voice was made as a perfect match.")
+		cw('bl',"In qualche modo, sembra che la sua voce morbida sia stata fatta come un perfetto match.")
 	elseif cl == 1814 then
-		cw('bl',"The poem isn't aimlessly cheery like Sayori is.")
+		cw('bl',"La poesia non è allegra senza scopo come Sayori.")
 	elseif cl == 1815 then
-		cw('bl',"It's serene and bittersweet.")
+		cw('bl',"È serena e amara.")
 	elseif cl == 1816 then
-		cw('bl',"If I were to read this on paper, I probably wouldn't think much of it...")
+		cw('bl',"Se l'avessi letta su carta, probabilmente non ci penserei molto...")
 	elseif cl == 1817 then
-		cw('bl',"But hearing it come from Sayori's voice almost gives it a whole new meaning.")
+		cw('bl',"Ma sentirla dalla voce di Sayori le dà quasi un nuovo significato.")
 	elseif cl == 1818 then
-		cw('bl',"Maybe this is what Sayori meant when she said she likes my poems.")
+		cw('bl',"Forse è questo che Sayori intendeva quando ha detto che le piacciono le mie poesie.")
 	elseif cl == 1819 then
-		cw('bl',"It's like I get to reach more deeply into someone I thought I knew through and through.")
+		cw('bl',"È come se io potessi raggiungere più profondamente qualcuno che pensavo di conoscere a fondo.")
 	elseif cl == 1820 then
-		cw('bl',"Sayori finishes, and we applaud.")
+		cw('bl',"Sayori finisce, e applaudiamo.")
 	elseif cl == 1821 then
 		updateSayori('3','q')
-		cw('s',"I did it~!")
+		cw('s',"L'ho fatta~!")
 	elseif cl == 1822 then
-		cw('mc',"Good job, Sayori.")
+		cw('mc',"Bravo, Sayori.")
 	elseif cl == 1823 then
-		cw('s',"Ehehe, even "..player.." liked it.")
+		cw('s',"Ehehe, anche "..player.." l'ha gradita.")
 	elseif cl == 1824 then
-		cw('s',"I guess that's a good sign~")
+		cw('s',"Suppongo che sia un buon segno~")
 	elseif cl == 1825 then
-		cw('mc',"What does that even mean...?")
+		cw('mc',"Cosa significa...?")
 	elseif cl == 1826 then
 		updateMonika('2','b',-40)
-		cw('m',"It came out nicely, Sayori.")
+		cw('m',"È uscita bene, Sayori.")
 	elseif cl == 1827 then
-		cw('m',"The atmosphere of the poem fits you really nicely.")
+		cw('m',"L'atmosfera della poesia ti sta bene davvero.")
 	elseif cl == 1828 then
-		cw('m',"But it might be that other poems wouldn't work quite as well with that kind of delivery...")
+		cw('m',"Ma potrebbe essere che altre poesie non funzionino così bene con quel tipo di consegna...")
 	elseif cl == 1829 then
 		updateSayori('1','g')
-		cw('s',"Eh? I don't really understand...")
+		cw('s',"Eh? Non capisco davvero...")
 	elseif cl == 1830 then
 		updateMonika('1','a')
-		cw('m',"In other words, I've seen poems of yours where that sort of gentle delivery wouldn't work as well.")
+		cw('m',"In altre parole, ho visto poesie tue dove quel tipo di consegna gentile non funzionerebbe così bene.")
 	elseif cl == 1831 then
-		cw('m',"They might need a little more force behind them, depending on what you're reading...")
+		cw('m',"Potrebbero aver bisogno di un po' più di forza dietro di loro, a seconda di cosa stai leggendo...")
 	elseif cl == 1832 then
 		updateSayori('1','x')
-		cw('s',"Oh, I know what you mean!")
+		cw('s',"Oh, so cosa intendi!")
 	elseif cl == 1833 then
-		cw('s',"That's...well, I've been practicing that kind of thing...")
+		cw('s',"È che...bene, ho stato praticando quel tipo di cosa...")
 	elseif cl == 1834 then
 		updateSayori('5a')
-		cw('s',"It's just embarrassing to do in front of everyone...")
+		cw('s',"È solo imbarazzante farlo davanti a tutti...")
 	elseif cl == 1835 then
 		cw('s',"Ehehe...")
 	elseif cl == 1836 then
 		updateMonika('4','a')
-		cw('m',"Then next time, I'm going to make you pick a poem that challenges you a little more.")
+		cw('m',"Allora la prossima volta, ti farò scegliere una poesia che ti sfidi un po' di più.")
 	elseif cl == 1837 then
-		cw('m',"We don't have much time before the festival, you know?")
+		cw('m',"Non abbiamo molto tempo prima del festival, lo sai?")
 	elseif cl == 1838 then
 		updateSayori('1','q')
 		cw('s',"Okaaaaay.")
 	elseif cl == 1839 then
 		updateMonika('1','a')
-		cw('m',"Now, who's next...?")
+		cw('m',"Ora, chi è dopo...?")
 	elseif cl == 1840 then
 		cw('m',"Natsuki?")
 	elseif cl == 1841 then
 		updateNatsuki('5','s',200)
 		cw('n',"Hmph.")
 	elseif cl == 1842 then
-		cw('n',"Don't make me go before "..player..".")
+		cw('n',"Non mi fate andare davanti a "..player..".")
 	elseif cl == 1843 then
-		cw('n',"It's not like I can compare to you guys, anyway...")
+		cw('n',"Non è come se io potessi confrontarmi con voi, comunque...")
 	elseif cl == 1844 then
-		cw('n',"Might as well let "..player.." lower everyone's standards a little before I have to do it.")
+		cw('n',"Meglio lasciare che "..player.." abbassino gli standard di tutti un po' prima che io debba farlo.")
 	elseif cl == 1845 then
 		updateSayori('1','g')
 		cw('s',"Natsuki...")
 	elseif cl == 1846 then
-		cw('mc',"It's fine, it's fine.")
+		cw('mc',"Va bene, va bene.")
 	elseif cl == 1847 then
-		cw('mc',"I might as well get it over with.")
+		cw('mc',"Posso farla finita.")
 	elseif cl == 1848 then
-		cw('mc',"But it's not like I have much of a selection of what to read...")
+		cw('mc',"Ma non è come se avessi molta selezione di cosa leggere...")
 	elseif cl == 1849 then
-		cw('mc',"I'll just have to go with what I wrote for today.")
+		cw('mc',"Devo solo andare con quello che ho scritto per oggi.")
 	elseif cl == 1850 then
-		cw('bl',"I stand up and step in front of the podium.")
+		cw('bl',"Mi alzo e passo davanti al podio.")
 	elseif cl == 1851 then
 		updateNatsuki('2','c',220)
 		updateSayori('1','a',120)
 		updateMonika('1','a',30)
 		updateYuri('1','e',-60)
-		cw('bl',"Everyone has their eyes on me, making me feel terribly awkward.")
+		cw('bl',"Tutti hanno gli occhi su di me, facendomi sentire terribilmente a disagio.")
 	elseif cl == 1852 then
-		cw('bl',"I recite my poem.")
+		cw('bl',"Recito la mia poesia.")
 	elseif cl == 1853 then
-		cw('bl',"Since I'm not exactly confident in my own writing, it's hard to put energy into it.")
+		cw('bl',"Visto che non sono esattamente sicuro della mia scrittura, è difficile mettere energia in essa.")
 	elseif cl == 1854 then
-		cw('bl',"Despite that, once I finish, I receive applause anyway.")
+		cw('bl',"Nonostante ciò, una volta finita, ricevo applausi comunque.")
 	elseif cl == 1855 then
-		cw('mc',"Sorry I'm not really as good as everyone else...")
+		cw('mc',"Scusate per non essere così brava come gli altri...")
 	elseif cl == 1856 then
 		updateMonika('1','a')
-		cw('m',"Don't worry about it so much.")
+		cw('m',"Non preoccuparti così tanto.")
 	elseif cl == 1857 then
-		cw('m',"I think it's less about your abilities, and more about your lack of confidence in your writing.")
+		cw('m',"Penso che sia meno sulle tue abilità, e più sulla tua mancanza di fiducia nella tua scrittura.")
 	elseif cl == 1858 then
-		cw('m',"That's something that'll improve over time, though.")
+		cw('m',"È qualcosa che migliorerà col tempo, però.")
 	elseif cl == 1859 then
-		cw('mc',"Yeah... Maybe.")
+		cw('mc',"Sì... Forse.")
 	elseif cl == 1860 then
 		updateMonika('1','j')
-		cw('m',"Alright, then!")
+		cw('m',"Bene, allora!")
 	elseif cl == 1861 then
 		updateMonika('1','a')
-		cw('m',"That just leaves you, Natsuki.")
+		cw('m',"Resta solo tu, Natsuki.")
 	elseif cl == 1862 then
 		updateNatsuki('2','g')
-		cw('n',"Yeah, yeah.")
+		cw('n',"Sì, sì.")
 	elseif cl == 1863 then
-		cw('n',"I'm going.")
+		cw('n',"Vado.")
 	elseif cl == 1864 then
-		cw('bl',"Natsuki begrudgingly gets out of her seat and makes her way to the podium.")
+		cw('bl',"Natsuki si alza dal suo posto con riluttanza e fa la sua strada verso il podio.")
 	elseif cl == 1865 then
 		hideMonika()
 		hideSayori()
 		hideYuri()
 		updateNatsuki('2','c',80)
-		cw('n',"The poem is called...")
+		cw('n',"La poesia si chiama...")
 	elseif cl == 1866 then
 		updateNatsuki('2','q')
-		cw('n',"It's called...")
+		cw('n',"Si chiama...")
 	elseif cl == 1867 then
 		updateNatsuki('1','x')
-		cw('n',"W-Why are you all looking at me?!")
+		cw('n',"P-Perché mi state guardando tutti?!")
 	elseif cl == 1868 then
-		cw('m',"Because you're presenting...")
+		cw('m',"Perché stai presentando...")
 	elseif cl == 1869 then
 		updateNatsuki('2','x')
 		cw('n',"Hmph...")
 	elseif cl == 1870 then
 		updateNatsuki('2','h')
-		cw('n',"Anyway...the poem is called Jump.")
+		cw('n',"Comunque...la poesia si chiama Jump.")
 	elseif cl == 1871 then
-		cw('bl',"Natsuki takes a breath.")
+		cw('bl',"Natsuki prende un respiro.")
 	elseif cl == 1872 then
 		updateNatsuki('2','c')
-		cw('bl',"Once she starts reciting the poem, her sour attitude disappears a little.")
+		cw('bl',"Una volta che inizia a recitare la poesia, il suo atteggiamento acido scompare un po'.")
 	elseif cl == 1873 then
-		cw('bl',"While she's still a little unenthused, her poem has a rhythm and rhyme to it.")
+		cw('bl',"Mentre è ancora un po' poco entusiasta, la sua poesia ha un ritmo e una rima.")
 	elseif cl == 1874 then
-		cw('bl',"It's Natsuki's trademark style, and it works surprisingly well when spoken aloud.")
+		cw('bl',"È lo stile trademark di Natsuki, e funziona sorprendentemente bene quando viene parlato ad alta voce.")
 	elseif cl == 1875 then
-		cw('bl',"The words feel like they bounce up and down, as if giving life to the poem.")
+		cw('bl',"Le parole sembrano rimbalzare su e giù, come se diano vita alla poesia.")
 	elseif cl == 1876 then
 		updateNatsuki('2','s')
-		cw('bl',"Natsuki finishes, and everyone applauds.")
+		cw('bl',"Natsuki finisce, e tutti applaudono.")
 	elseif cl == 1877 then
-		cw('bl',"She huffs back to her seat.")
+		cw('bl',"Torna al suo posto sbuffando.")
 	elseif cl == 1878 then
 		updateMonika('2','a',-40)
-		cw('m',"That wasn't so bad, was it?")
+		cw('m',"Non è stata così male, vero?")
 	elseif cl == 1879 then
 		updateNatsuki('5','w')
-		cw('n',"Easy for you to say...")
+		cw('n',"Facile da dire per te...")
 	elseif cl == 1880 then
-		cw('n',"You'd better not make me do that again.")
+		cw('n',"Meglio non mi fate fare di nuovo.")
 	elseif cl == 1881 then
 		updateMonika('1','d')
-		cw('m',"Ah, well...")
+		cw('m',"Ah, bene...")
 	elseif cl == 1882 then
-		cw('m',"Do you at least feel prepared enough to recite a poem in front of other people?")
+		cw('m',"Ti senti almeno preparata abbastanza da recitare una poesia davanti ad altre persone?")
 	elseif cl == 1883 then
 		updateNatsuki('2','c')
-		cw('n',"I mean, doing it in front of other people will be way easier!")
+		cw('n',"Voglio dire, farlo davanti ad altre persone sarà molto più facile!")
 	elseif cl == 1884 then
-		cw('n',"I can put on whatever face I want for other people.")
+		cw('n',"Posso mettere qualunque faccia voglio per altre persone.")
 	elseif cl == 1885 then
 		updateNatsuki('2','q')
-		cw('n',"But when it's just my friends...")
+		cw('n',"Ma quando sono solo i miei amici...")
 	elseif cl == 1886 then
-		cw('n',"It's just...embarrassing.")
+		cw('n',"È solo...imbarazzante.")
 	elseif cl == 1887 then
 		updateSayori('1','b',200)
-		cw('s',"That's a surprise, Natsuki...")
+		cw('s',"È una sorpresa, Natsuki...")
 	elseif cl == 1888 then
-		cw('s',"I think it would be the other way around for me.")
+		cw('s',"Penso che sarebbe il contrario per me.")
 	elseif cl == 1889 then
-		cw('n',"Well, that's just how it is, so...")
+		cw('n',"Bene, è così che va, quindi...")
 	elseif cl == 1890 then
 		updateMonika('1','a')
-		cw('m',"Well, I guess in that case...")
+		cw('m',"Bene, suppongo in quel caso...")
 	elseif cl == 1891 then
-		cw('m',"You won't have much to worry about for the festival.")
+		cw('m',"Non avrai molto da preoccuparti per il festival.")
 	elseif cl == 1892 then
 		updateNatsuki('2','b')
-		cw('m',"That said, I want to thank everyone for coming through.")
+		cw('m',"Detto questo, voglio ringraziare tutti per essere venuti.")
 	elseif cl == 1893 then
-		cw('m',"It might be hard, but I hope that you all have an idea of what it's like now.")
+		cw('m',"Potrebbe essere difficile, ma spero che ora abbiate un'idea di come sia.")
 	elseif cl == 1894 then
 		updateMonika('4','b')
-		cw('m',"Make sure you pick a poem and get enough practice before the festival, okay?")
+		cw('m',"Assicuratevi di scegliere una poesia e fare abbastanza pratica prima del festival, ok?")
 	elseif cl == 1895 then
-		cw('m',"I'll be making pamphlets, so let me know ahead of time what you'll be reciting.")
+		cw('m',"Sto facendo volantini, quindi fatemi sapere in anticipo cosa reciterete.")
 	elseif cl == 1896 then
-		cw('mc',"Jeez...")
+		cw('mc',"Che vuoi...")
 	elseif cl == 1897 then
-		cw('mc',"I should probably find some other poem to recite instead.")
+		cw('mc',"Probabilmente dovrei trovare un'altra poesia da recitare invece.")
 	elseif cl == 1898 then
 		updateMonika('1','j')
-		cw('m',"That's fine, too!")
+		cw('m',"Va bene anche così!")
 	elseif cl == 1899 then
 		updateMonika('1','a')
-		cw('m',"It doesn't have to be your own.")
+		cw('m',"Non deve essere la tua.")
 	elseif cl == 1900 then
-		cw('m',"I'm already pleasantly surprised that you're putting in all this effort for the club.")
+		cw('m',"Sono già piacevolmente sorpresa che tu stia mettendo tutto questo impegno per il club.")
 	elseif cl == 1901 then
 		updateMonika('5a')
-		cw('m',"It makes me really happy.")
+		cw('m',"Mi fa davvero felice.")
 	elseif cl == 1902 then
-		cw('mc',"Ah... Yeah, no problem...")
+		cw('mc',"Ah... Sì, nessun problema...")
 	elseif cl == 1903 then
 		audioUpdate('8')
 		hideSayori()
 		hideNatsuki()
 		updateMonika('4','b',80)
-		cw('m',"Okay, everyone!")
+		cw('m',"Ok, tutti!")
 	elseif cl == 1904 then
-		cw('m',"I think that's about it for today.")
+		cw('m',"Penso che sia tutto per oggi.")
 	elseif cl == 1905 then
-		cw('m',"I know the festival is coming up, but let's try to write poems for tomorrow, as well.")
+		cw('m',"So che il festival sta arrivando, ma proviamo a scrivere poesie anche per domani.")
 	elseif cl == 1906 then
-		cw('m',"It's been working out really nicely so far, so I'd like to continue that.")
+		cw('m',"È stato funzionando davvero bene finora, quindi mi piacerebbe continuare.")
 	elseif cl == 1907 then
-		cw('m',"As for the festival, we'll finish planning tomorrow, and then we'll have the weekend to prepare.")
+		cw('m',"Per il festival, finiremo di pianificare domani, e poi avremo il weekend per prepararci.")
 	elseif cl == 1908 then
-		cw('m',"Monday's the big day!")
+		cw('m',"Lunedì è il grande giorno!")
 	elseif cl == 1909 then
 		updateSayori('4','r',-40)
-		cw('s',"I can't wait~!")
+		cw('s',"Non vedo l'ora~!")
 	elseif cl == 1910 then
 		updateYuri('4','b2',200)
-		cw('y',"I can do this... I can do this...")
+		cw('y',"Posso farla... posso farla...")
 	elseif cl == 1911 then
-		cw('mc',"Alright--")
+		cw('mc',"Bene--")
 	elseif cl == 1912 then
 		hideSayori()
 		hideMonika()
 		hideYuri()
-		cw('bl',"I stand up.")
+		cw('bl',"Mi alzo.")
 	elseif cl == 1913 then
-		cw('bl',"There's no way I'll be able to find the same enthusiasm as Sayori and Monika, but I'll do my best to get through it.")
+		cw('bl',"Non c'è modo che potrò trovare la stessa entusiasmazione di Sayori e Monika, ma farò del mio meglio per superarlo.")
 	elseif cl == 1914 then
-		cw('bl',"If it's for the sake of the club...")
+		cw('bl',"Se è per il bene del club...")
 	elseif cl == 1915 then
-		cw('bl',"And impressing Monika...")
+		cw('bl',"E impressionare Monika...")
 	elseif cl == 1916 then
-		cw('bl',"Then I'll have to do my best.")
+		cw('bl',"Allora dovrò fare del mio meglio.")
 	elseif cl == 1917 then
 		updateSayori('1','a',80)
-		cw('mc',"Ready to go, Sayori?")
+		cw('mc',"Pronta a andare, Sayori?")
 	elseif cl == 1918 then
 		updateSayori('1','x')
-		cw('s',"Yep!")
+		cw('s',"Sì!")
 	elseif cl == 1919 then
 		updateNatsuki('2','d',200)
-		cw('n',"Look at you two, always going home together like that.")
+		cw('n',"Guardate voi due, sempre andando a casa insieme così.")
 	elseif cl == 1920 then
 		updateMonika('5a','',-40)
-		cw('m',"It's kind of adorable, isn't it?")
+		cw('m',"È un po' adorabile, non è così?")
 	elseif cl == 1921 then
 		updateSayori('1','q')
 		cw('s',"Ehehe~")
 	elseif cl == 1922 then
-		cw('mc',"Jeez, guys...")
+		cw('mc',"Che vuoi, ragazzi...")
 	elseif cl == 1923 then
 		scriptJump(1980)
 	elseif cl == 1980 then
-		cw('mc',"Don't make such a big deal out of it.")
+		cw('mc',"Non fateci un gran caso.")
 	elseif cl == 1981 then
 		updateNatsuki('2','d',220)
 		updateSayori('1','q',120)
 		updateMonika('5a','',30)
 		updateYuri('1','u',-60)
-		cw('y',"It must be a little nice, though...")
+		cw('y',"Deve essere un po' bello, però...")
 	elseif cl == 1982 then
 		scriptJump(1924)
 	elseif cl == 1924 then
-		cw('mc',"Well...")
+		cw('mc',"Bene...")
 	elseif cl == 1925 then
 		cw('mc',"Ah...")
 	elseif cl == 1926 then
-		cw('bl',"How am I supposed to respond to that?")
+		cw('bl',"Come dovrei rispondere a quello?")
 	elseif cl == 1927 then
 		updateSayori('1','d')
-		cw('s',"It's okay, "..player..", you don't have to say it.")
+		cw('s',"Va bene, "..player..", non devi dirlo.")
 	elseif cl == 1928 then
-		cw('mc',"...Whatever. Let's go already.")
+		cw('mc',"...Qualunque cosa. Andiamo già.")
 	elseif cl == 1929 then
 		bgUpdate('residential')
 		hideAll()
-		cw('bl',"I walk home with Sayori once more.")
+		cw('bl',"Cammino a casa con Sayori un'altra volta.")
 	elseif cl == 1930 then
-		cw('bl',"Even though it's only been a few days, a lot of things have already changed.")
+		cw('bl',"Anche se è passato solo pochi giorni, molte cose sono già cambiate.")
 	elseif cl == 1931 then
-		cw('bl',"But today, Sayori is being a little quieter than usual on the way home.")
+		cw('bl',"Ma oggi, Sayori è un po' più silenziosa del solito sulla strada di casa.")
 	elseif cl == 1932 then
-		cw('mc',"Hey, Sayori...")
+		cw('mc',"Ehi, Sayori...")
 	elseif cl == 1933 then
 		updateSayori('1','k',80)
 		cw('s',"...")
 	elseif cl == 1934 then
 		updateSayori('1','n')
-		cw('s',"...Sorry! I was spacing out!")
+		cw('s',"...Scusa! Stavo distruggata!")
 	elseif cl == 1935 then
-		cw('mc',"Ah, no wonder...")
+		cw('mc',"Ah, niente di strano...")
 	elseif cl == 1936 then
 		updateSayori('1','d')
-		cw('s',"Um...")
+		cw('s',"Ehm...")
 	elseif cl == 1937 then
-		cw('s',"I was...thinking about something from earlier.")
+		cw('s',"Stavo...pensando a qualcosa di prima.")
 	elseif cl == 1938 then
-		cw('s',"I like how we get to...")
+		cw('s',"Mi piace come noi...")
 	elseif cl == 1939 then
 		updateSayori('1','y')
-		cw('s',"I-I mean...")
+		cw('s',"I-Voglio dire...")
 	elseif cl == 1940 then
-		cw('bl',"Sayori fumbles with her words.")
+		cw('bl',"Sayori faticaccia con le sue parole.")
 	elseif cl == 1941 then
 		updateSayori('1','a')
-		cw('s',"So...let's just say that one day, "..ch2_winner.." asked to walk home with you...")
+		cw('s',"Quindi...diciamo solo che un giorno, "..ch2_winner.." ha chiesto di andare a casa con te...")
 	elseif cl == 1942 then
-		cw('mc',"Huh?!")
+		cw('mc',"Che?!")
 	elseif cl == 1943 then
-		cw('s',"What would you do?")
+		cw('s',"Cosa faresti?")
 	elseif cl == 1944 then
-		cw('mc',"What kind of question is that...?")
+		cw('mc',"Che tipo di domanda è...?")
 	elseif cl == 1945 then
-		cw('mc',"You're kind of putting me on the spot here...")
+		cw('mc',"Stai un po' mettendomi in una posizione difficile...")
 	elseif cl == 1946 then
 		updateSayori('1','y')
 		cw('s',"Ehehe...")
 	elseif cl == 1947 then
-		menutext = "Well..."
-		choices = {"I would walk home with "..ch2_winner..".","I would still walk home with Sayori."}
+		menutext = "Bene..."
+		choices = {"Andrei a casa con "..ch2_winner..".","Continuerei ad andare a casa con Sayori."}
 		choice_enable()
 	elseif cl >= 1948 and cl < 1973 then
 		if choicepick == "I would walk home with "..ch2_winner.."." or choicepick == 'n' or choicepick == 'y' then
@@ -1338,9 +1338,9 @@ function ch2script()
 		choices = {''}
 		
 	elseif cl == 1973 then
-		cw('bl',"Then again, the festival is only a few days away...")
+		cw('bl',"Poi di nuovo, il festival è solo a pochi giorni di distanza...")
 	elseif cl == 1974 then
-		cw('bl',"Who knows what will happen in that time?")
+		cw('bl',"Chi sa cosa succederà in quel tempo?")
 	elseif cl == 1975 then
 		fadeOut(1)
 	elseif cl >= 1976 and cl < 1980 then
@@ -1352,51 +1352,51 @@ function ch2_end_sayori()
 	if cl == 1948 then
 		cw('mc',"Sayori...")
 	elseif cl == 1949 then
-		cw('mc',"You really think I would ditch you for "..ch2_winner.."?")
+		cw('mc',"Pensi davvero che ti lascerei per "..ch2_winner.."?")
 	elseif cl == 1950 then
 		updateSayori('1','e')
 		cw('s',"Eh?!")
 	elseif cl == 1951 then
-		cw('s',"B-But...")
+		cw('s',"B-Però...")
 	elseif cl == 1952 then
 		if ch2_winner == tr.names[2] then
-			cw('s',"She's so cute and fun to be around...")
+			cw('s',"È così carina e divertente da stare con lei...")
 		else
-			cw('s',"She's so beautiful and smart...")
+			cw('s',"È così bella e intelligente...")
 		end
 	elseif cl == 1953 then
-		cw('mc',"Jeez...")
+		cw('mc',"Che vuoi...")
 	elseif cl == 1954 then
-		cw('mc',"I already see her in the club every day.")
+		cw('mc',"La vedo già nel club ogni giorno.")
 	elseif cl == 1955 then
-		cw('mc',"Besides, you always seem to really like going home together...")
+		cw('mc',"Comunque, ti piace sempre davvero andare a casa insieme...")
 	elseif cl == 1956 then
-		cw('mc',"I wouldn't just ruin that for you.")
+		cw('mc',"Non lo rovinerei solo per te.")
 	elseif cl == 1957 then
 		updateSayori('1','y')
-		cw('s',"You're so silly, "..player.."...")
+		cw('s',"Sei così stupida, "..player.."...")
 	elseif cl == 1958 then
-		cw('s',"You think about me too much sometimes.")
+		cw('s',"Pensi troppo a me a volte.")
 	elseif cl == 1959 then
-		cw('s',ch2_winner.." would deserve it if she wanted it, so...")
+		cw('s',ch2_winner.." lo meriterebbe se lo volesse, quindi...")
 	elseif cl == 1960 then
-		cw('mc',"Sayori, I've already made up my mind.")
+		cw('mc',"Sayori, ho già deciso.")
 	elseif cl == 1961 then
-		cw('mc',"I really can't figure you out sometimes...")
+		cw('mc',"Non riesco proprio a capire a volte...")
 	elseif cl == 1962 then
-		cw('s',"Sorry...")
+		cw('s',"Scusa...")
 	elseif cl == 1963 then
-		cw('mc',"Besides, what's the point in speculating something that's never going to happen?")
+		cw('mc',"Comunque, qual è il punto di speculare su qualcosa che non succederà mai?")
 	elseif cl == 1964 then
 		updateSayori('1','k')
 		cw('s',"Hm...")
 	elseif cl == 1965 then
 		hideSayori()
-		cw('bl',"The conversation trails off.")
+		cw('bl',"La conversazione si spegne.")
 	elseif cl == 1966 then
-		cw('bl',"It's kind of a weird thing for Sayori to care so much about...")
+		cw('bl',"È un po' una cosa strana che Sayori ci tenga così...")
 	elseif cl == 1967 then
-		cw('bl',"But I want to respect her and keep her happy, too.")
+		cw('bl',"Ma voglio rispettarla e mantenerla felice anche.")
 	elseif cl == 1968 then
 		scriptJump(1973)
 	end
@@ -1404,16 +1404,16 @@ end
 
 function ch2_end_natsuki()
 	if cl == 1948 then
-		cw('mc',"Walking home with Natsuki, huh...")
+		cw('mc',"Andare a casa con Natsuki, eh...")
 	elseif cl == 1949 then
-		cw('bl',"Why does the thought of that make my heart pound...?")
+		cw('bl',"Perché il pensiero di quello mi fa battere il cuore...?")
 	elseif cl == 1950 then
-		cw('mc',"I mean...")
+		cw('mc',"Voglio dire...")
 	elseif cl == 1951 then
-		cw('mc',"I think I would be afraid of what she'd do to me if I turned her down...")
+		cw('mc',"Penso che avrei paura di cosa mi farebbe se le dicessi di no...")
 	elseif cl == 1952 then
 		updateSayori('1','x')
-		cw('s',"Isn't she so cute and fun to be around?")
+		cw('s',"Non è così carina e divertente da stare con lei?")
 	elseif cl >= 1953 then
 		ch2_end_shared()
 	end
@@ -1421,16 +1421,16 @@ end
 
 function ch2_end_yuri()
 	if cl == 1948 then
-		cw('mc',"Walking home with Yuri, huh...")
+		cw('mc',"Andare a casa con Yuri, eh...")
 	elseif cl == 1949 then
-		cw('bl',"Why does the thought of that make my heart pound...?")
+		cw('bl',"Perché il pensiero di quello mi fa battere il cuore...?")
 	elseif cl == 1950 then
-		cw('mc',"I mean...")
+		cw('mc',"Voglio dire...")
 	elseif cl == 1951 then
-		cw('mc',"Given how hard it is for her to socialize, I would feel awful turning her down, so...")
+		cw('mc',"Visto quanto è difficile per lei socializzare, mi sentirei terribile se le dicessi di no, quindi...")
 	elseif cl == 1952 then
 		updateSayori('1','x')
-		cw('s',"Isn't she so beautiful and smart?")
+		cw('s',"Non è così bella e intelligente?")
 	elseif cl >= 1953 then
 		ch2_end_shared()
 	end
@@ -1438,49 +1438,49 @@ end
 
 function ch2_end_shared()
 	if cl == 1953 then
-		cw('mc',"That has nothing to do with what I just said!")
+		cw('mc',"Non ha niente a che fare con quello che ho appena detto!")
 	elseif cl == 1954 then
 		updateSayori('4','s')
-		cw('s',"Ahaha! You admitted it!")
+		cw('s',"Ahaha! L'hai ammesso!")
 	elseif cl == 1955 then
-		cw('mc',"Jeez...")
+		cw('mc',"Che vuoi...")
 	elseif cl == 1956 then
-		cw('mc',"There's not even any point in speculating something that's never going to happen.")
+		cw('mc',"Non c'è nemmeno il punto di speculare su qualcosa che non succederà mai.")
 	elseif cl == 1957 then
 		updateSayori('1','d')
-		cw('s',"Well, maybe...")
+		cw('s',"Bene, forse...")
 	elseif cl == 1958 then
-		cw('s',"But I just like to think about it.")
+		cw('s',"Ma mi piace solo immaginarlo.")
 	elseif cl == 1959 then
 		updateSayori('1','y')
-		cw('s',"It's not long before you won't need me anymore, you know?")
+		cw('s',"Non è per molto che non avrai bisogno di me, lo sai?")
 	elseif cl == 1960 then
-		cw('mc',"Need you...?")
+		cw('mc',"Avere bisogno di te...?")
 	elseif cl == 1961 then
 		cw('mc',"Sayori...")
 	elseif cl == 1962 then
-		cw('mc',"I can't figure out how you're seeing things in your head right now.")
+		cw('mc',"Non riesco a capire come stai vedendo le cose nella tua testa in questo momento.")
 	elseif cl == 1963 then
-		cw('s',"Sorry...")
+		cw('s',"Scusa...")
 	elseif cl == 1964 then
-		cw('mc',"Everyone is different...")
+		cw('mc',"Ognuno è diverso...")
 	elseif cl == 1965 then
-		cw('mc',"Nobody in the club is a replacement for you.")
+		cw('mc',"Nessuno nel club è una sostituzione per te.")
 	elseif cl == 1966 then
 		updateSayori('1','k')
 		cw('s',"Hmm...")
 	elseif cl == 1967 then
-		cw('s',"If you say so...")
+		cw('s',"Se lo dici tu...")
 	elseif cl == 1968 then
 		hideSayori()
-		cw('bl',"The conversation trails off, and I'm left feeling awkward.")
+		cw('bl',"La conversazione si spegne, e mi sento a disagio.")
 	elseif cl == 1969 then
-		cw('bl',"But it was kind of her fault for trapping me with such a weird question...")
+		cw('bl',"Ma era un po' colpa sua per avermi intrappolato con una domanda così strana...")
 	elseif cl == 1970 then
-		cw('bl',"I can't just lie to her.")
+		cw('bl',"Non posso semplicemente mentirle.")
 	elseif cl == 1971 then
-		cw('bl',"But if there's something that makes her happy, I would hate to take that away from her.")
+		cw('bl',"Ma se c'è qualcosa che la fa felice, mi piacerebbe togliergelo.")
 	elseif cl == 1972 then
-		cw('bl',"That's why I said there's no point in speculating.")
+		cw('bl',"È per questo che ho detto che non c'è il punto di speculare.")
 	end
 end
